@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "plugins": [
+    {
+      "id": "nordvpn",
+      "name": "NordVPN Status",
+      "version": "0.1.0",
+      "minNoctaliaVersion": "3.6.0",
+      "author": "hrtns",
+      "license": "MIT",
+      "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
+      "description": "NordVPN connection status in the bar",
+      "tags": ["Bar", "Network", "Privacy"],
+      "lastUpdated": "2026-06-17T12:00:00+00:00"
+    }
+  ]
+}

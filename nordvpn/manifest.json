@@ -1,0 +1,27 @@
+{
+  "id": "nordvpn",
+  "name": "NordVPN Status",
+  "version": "0.1.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "hrtns",
+  "license": "MIT",
+  "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
+  "description": "NordVPN connection status in the bar",
+  "tags": ["Bar", "Network", "Privacy"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "barWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "displayMode": "alwaysShow",
+      "connectedColor": "primary",
+      "disconnectedColor": "none",
+      "pollInterval": 5000
+    }
+  }
+}

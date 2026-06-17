@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "pluginSettings": "Plugin Settings"
+  },
+  "bar": {
+    "disconnected-state": "NordVPN: Disconnected-state"
+  },
+  "panel": {
+    "title": "NordVPN",
+    "refresh": "Refresh",
+    "close": "Close",
+    "status-connected": "Connected",
+    "status-disconnected": "Disconnected",
+    "status-connecting": "Connecting...",
+    "status-unkown": "Unknown",
+    "load": "Load",
+    "disconnect": "Disconnect",
+    "connect": "Connect",
+    "kill-switch": "Kill Switch",
+    "kill-switch-desc": "Blocks Internet if VPN Drops",
+    "kill-switch-disabled": "Disabled",
+    "loading": "Loading..."
+  }
+}
