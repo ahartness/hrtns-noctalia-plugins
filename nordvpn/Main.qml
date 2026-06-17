@@ -17,7 +17,7 @@ Item {
     property string lastError: ""
 
     // Config state
-    property string killSwitch: "unknown"  // "off" | "standard" | "unknown"
+    property string killSwitch: "unknown"  // "disabled" | "enabled" | "unknown"
 
     readonly property int pollInterval: pluginApi?.pluginSettings?.pollInterval ?? 5000
 
@@ -49,7 +49,7 @@ Item {
                 // root.serverLoad = loadMatch ? parseInt(loadMatch[1]) : -1;
             } else {
                 root.vpnStatus = "disconnected";
-                root.serverName = root.serverLocation = root.protocol = "";
+                root.serverName = root.serverLocation = "";
                 root.serverLoad = -1;
             }
         }

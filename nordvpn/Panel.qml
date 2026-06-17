@@ -95,7 +95,7 @@ Item {
                             radius: width / 2
                             color: {
                                 if (root.acting)    return Color.mTertiary;
-                                if (root.connected) return Color.mPrimary;
+                                if (root.connected) return "#4687FF";
                                 if (root.vpnStatus === "disconnected") return Color.mError;
                                 return Color.mOnSurfaceVariant;
                             }
@@ -110,7 +110,7 @@ Item {
                             }
                             labelColor: {
                                 if (root.acting)    return Color.mTertiary;
-                                if (root.connected) return Color.mPrimary;
+                                if (root.connected) return "#4687FF";
                                 if (root.vpnStatus === "disconnected") return Color.mError;
                                 return Color.mOnSurfaceVariant;
                             }
@@ -126,7 +126,7 @@ Item {
 
                     // Server name + location
                     NLabel {
-                        visible: root.connected && (main?.serverName ?? "") !== ""
+                        visible: root.connected && (main?.serverLocation ?? "") !== ""
                         label: ((main?.serverLocation ?? "") !== "" ? "  ·  " + main.serverLocation : "")
                         labelColor: Color.mOnSurface
                         Layout.fillWidth: true
@@ -195,7 +195,7 @@ Item {
                     spacing: Style.marginM
 
                     NIcon {
-                        icon: "shield-bolt"
+                        icon: "bolt"
                         pointSize: Style.fontSizeL
                         color: (main?.killSwitch ?? "off") === "standard"
                                ? Color.mPrimary : Color.mOnSurfaceVariant
@@ -205,8 +205,8 @@ Item {
                         label: pluginApi?.tr("panel.kill-switch")
                         description: {
                             const ks = main?.killSwitch ?? "unknown";
-                            if (ks === "standard") return pluginApi?.tr("panel.kill-switch-desc");
-                            if (ks === "off")      return pluginApi?.tr("panel.kill-switch-disabled");
+                            if (ks === "enabled")      return pluginApi?.tr("panel.kill-switch-desc");
+                            if (ks === "disabled")      return pluginApi?.tr("panel.kill-switch-disabled");
                             return pluginApi?.tr("panel.loading");
                         }
                         Layout.fillWidth: true
