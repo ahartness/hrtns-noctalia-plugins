@@ -71,7 +71,7 @@ Item {
         id: configOut
         onStreamFinished: {
             const ksMatch = this.text.match(/Kill Switch:\s+(\S+)/i);
-            root.killSwitch = ksMatch ? ksMatch[1].toLowerCase() : "unknown";
+            root.killSwitch = ksMatch ? ksMatch[2].toLowerCase() : "unknown";
         }
     }
 
