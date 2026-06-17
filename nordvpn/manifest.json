@@ -19,8 +19,8 @@
   "metadata": {
     "defaultSettings": {
       "displayMode": "alwaysShow",
-      "connectedColor": "primary",
-      "disconnectedColor": "none",
+      "connectedColor": "#4687FF",
+      "disconnectedColor": "#ff0000",
       "pollInterval": 5000
     }
   }

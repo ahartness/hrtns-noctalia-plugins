@@ -32,14 +32,14 @@ Item {
 
     readonly property string pillIcon: {
         if (isLoading) return "reload";
-        if (connected) return "shield-lock";
-        return "shield";
+        if (connected) return "brand-nord-vpn";
+        return "brand-nord-vpn";
     }
 
     readonly property string pillText: {
-        if (isLoading) return "";
-        if (connected) return main.serverName ?? "";
-        return "";
+        if (isLoading) return "Connecting...";
+        if (connected) return "VPN Connected: " + (main.serverLocation ?? "");
+        return "VPN Disconnected";
     }
 
     readonly property string activeColor: connected ? connectedColor : disconnectedColor
