@@ -73,10 +73,10 @@ Item {
         tooltipText: {
             if (root.connected) {
                 const loc = root.main.serverLocation ?? "";
-                const proto = root.main.protocol ?? "";
+                // const proto = root.main.protocol ?? "";
                 const parts = [];
                 if (loc) parts.push(loc);
-                if (proto) parts.push(proto.toUpperCase());
+                // if (proto) parts.push(proto.toUpperCase());
                 return parts.join(" · ");
             }
             return pluginApi?.tr("bar.disconnected-state");
