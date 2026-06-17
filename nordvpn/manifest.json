@@ -10,7 +10,7 @@
   "tags": ["Bar", "Network", "Privacy"],
   "entryPoints": {
     "main": "Main.qml",
-    "barWidget": "barWidget.qml",
+    "barWidget": "BarWidget.qml",
     "panel": "Panel.qml"
   },
   "dependencies": {
