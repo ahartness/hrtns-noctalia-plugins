@@ -310,7 +310,7 @@ Item {
 
                             NBox {
                                 Layout.fillWidth: true
-                                Layout.preferredHeight: Math.round(Style.baseWidgetSize * 0.85)
+                                Layout.preferredHeight: Math.round(Style.baseWidgetSize * 0.95)
 
                                 RowLayout {
                                     anchors.fill: parent
@@ -326,9 +326,15 @@ Item {
                                     TextField {
                                         id: citySearchField
                                         Layout.fillWidth: true
+                                        Layout.alignment: Qt.AlignVCenter
                                         placeholderText: pluginApi?.tr("panel.search-city")
                                         text: root.cityFilterText
                                         selectByMouse: true
+                                        topPadding: Math.round(Style.marginXS)
+                                        bottomPadding: Math.round(Style.marginXS)
+                                        leftPadding: 0
+                                        rightPadding: 0
+                                        verticalAlignment: TextInput.AlignVCenter
                                         color: Color.mOnSurface
                                         placeholderTextColor: Color.mOnSurfaceVariant
                                         background: Rectangle { color: "transparent" }
