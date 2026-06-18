@@ -4,7 +4,7 @@
   },
   "bar": {
     "disconnected-state": "VPN: Disconnected",
-    "connected-state": "VPN: Connected to {location} ({name})",
+    "connected-state": "VPN: Connected to {location}",
     "connecting-state": "VPN: Connecting..."
   },
   "panel": {

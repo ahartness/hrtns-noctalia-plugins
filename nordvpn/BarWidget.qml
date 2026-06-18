@@ -37,7 +37,7 @@ Item {
 
     readonly property string pillText: {
         if (isLoading) return pluginApi?.tr("bar.connecting-state") ?? "Connecting...";
-        if (connected) return pluginApi?.tr("bar.connected-state", { location: main.serverLocation ?? "Unknown", name: main.serverName ?? "Unknown" }) ?? "VPN Connected";
+        if (connected) return pluginApi?.tr("bar.connected-state", { location: main.serverLocation ?? "Unknown" }) ?? "VPN Connected";
         return pluginApi?.tr("bar.disconnected-state") ?? "VPN Disconnected";
     }
 
