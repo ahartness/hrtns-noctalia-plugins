@@ -25,6 +25,16 @@ Item {
     property string meshnet: "unknown"
     property string lanDiscovery: "unknown"
 
+    // City selector state
+    property var    usCities: []
+    property bool   isLoadingCities: false
+    property string selectedCity: ""
+    readonly property string selectedCountry: {
+        const raw = pluginApi?.pluginSettings?.country ?? "us";
+        const normalized = ("" + raw).trim().toLowerCase();
+        return normalized !== "" ? normalized : "us";
+    }
+
     readonly property int pollInterval: pluginApi?.pluginSettings?.pollInterval ?? 5000
 
     // ── Status polling ────────────────────────────────────────────────────────
@@ -32,6 +42,48 @@ Item {
     function refresh() {
         if (!statusProc.running) statusProc.running = true;
         if (!configProc.running) configProc.running = true;
+    }
+
+    function fetchUsCities(force) {
+        if (root.isLoadingCities) return;
+        if (!force && root.usCities.length > 0) return;
+        root.isLoadingCities = true;
+        if (!citiesProc.running) citiesProc.running = true;
+    }
+
+    function _parseUsCitiesOutput(text) {
+        const parsed = [];
+        const seen = {};
+
+        function addCity(token) {
+            const city = token.trim().replace(/\.$/, "");
+            if (!city) return;
+            const key = city.toLowerCase();
+            if (seen[key]) return;
+            seen[key] = true;
+            parsed.push(city);
+        }
+
+        const lines = text.split(/\r?\n/);
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i].trim();
+            if (!line) continue;
+
+            if (/^the following cities are available/i.test(line)) continue;
+            if (/\bhas\s+\d+\s+cities?\b/i.test(line)) continue;
+            if (/^you can also connect/i.test(line)) continue;
+            if (/^for example/i.test(line)) continue;
+            if (/^help:/i.test(line)) continue;
+
+            line = line.replace(/^[*\-•]\s*/, "");
+            line = line.replace(/^cities:\s*/i, "");
+
+            const tokens = line.split(/\s*,\s*/);
+            for (let j = 0; j < tokens.length; j++) addCity(tokens[j]);
+        }
+
+        parsed.sort((a, b) => a.localeCompare(b));
+        return parsed;
     }
 
     StdioCollector {
@@ -93,12 +145,49 @@ Item {
         stdout: configOut
     }
 
+    StdioCollector {
+        id: citiesOut
+        onStreamFinished: {
+            root.isLoadingCities = false;
+            const parsed = root._parseUsCitiesOutput(this.text);
+            root.usCities = parsed;
+
+            if (parsed.length === 0) {
+                root.selectedCity = "";
+            } else if (parsed.indexOf(root.selectedCity) === -1) {
+                root.selectedCity = parsed[0];
+            }
+        }
+    }
+
+    Process {
+        id: citiesProc
+        command: ["nordvpn", "cities", root.selectedCountry]
+        running: false
+        stdout: citiesOut
+        onExited: (code) => {
+            root.isLoadingCities = false;
+            if (code !== 0) {
+                root.usCities = [];
+                root.selectedCity = "";
+            }
+        }
+    }
+
     Timer {
         interval: root.pollInterval
         running: true
         repeat: true
         triggeredOnStart: true
         onTriggered: root.refresh()
+    }
+
+    Component.onCompleted: fetchUsCities(false)
+
+    onSelectedCountryChanged: {
+        root.usCities = [];
+        root.selectedCity = "";
+        fetchUsCities(true);
     }
 
     // ── Actions ───────────────────────────────────────────────────────────────
@@ -127,6 +216,11 @@ Item {
     }
 
     function connect()           { _run(["nordvpn", "connect"]);                          }
+    function connectToCity(city) {
+        const target = (city ?? "").trim();
+        if (!target) return;
+        _run(["nordvpn", "connect", target]);
+    }
     function disconnect()        { _run(["nordvpn", "disconnect"]);                       }
 
     function setKillSwitch(value) {

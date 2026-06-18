@@ -24,7 +24,11 @@ Item {
     property real contentPreferredWidth:  Math.round(360 * Style.uiScaleRatio)
     property real contentPreferredHeight: Math.round(mainCol.implicitHeight + Style.marginL * 2)
 
-    Component.onCompleted: { if (main) main.refresh(); }
+    Component.onCompleted: {
+        if (!main) return;
+        main.refresh();
+        main.fetchUsCities(false);
+    }
 
     Rectangle {
         id: container
@@ -64,7 +68,10 @@ Item {
                         tooltipText: pluginApi?.tr("panel.refresh")
                         baseSize: Style.baseWidgetSize * 0.8
                         enabled: !root.acting
-                        onClicked: main?.refresh()
+                        onClicked: {
+                            main?.refresh();
+                            main?.fetchUsCities(true);
+                        }
                     }
 
                     NIconButton {
@@ -191,6 +198,66 @@ Item {
                 text: root.connected ? pluginApi?.tr("panel.disconnect") : pluginApi?.tr("panel.connect")
                 enabled: !root.acting && root.vpnStatus !== "unknown"
                 onClicked: root.connected ? main?.disconnect() : main?.connect()
+            }
+
+            // ── Connect to city ────────────────────────────────────────────
+            NBox {
+                Layout.fillWidth: true
+                Layout.preferredHeight: Math.round(cityCol.implicitHeight + Style.marginM * 2)
+
+                ColumnLayout {
+                    id: cityCol
+                    anchors.fill: parent
+                    anchors.margins: Style.marginM
+                    spacing: Style.marginS
+
+                    NLabel {
+                        label: pluginApi?.tr("panel.city-country", {
+                            country: (main?.selectedCountry ?? "us").toUpperCase()
+                        })
+                        labelColor: Color.mOnSurfaceVariant
+                    }
+
+                    RowLayout {
+                        Layout.fillWidth: true
+                        spacing: Style.marginS
+
+                        ComboBox {
+                            id: cityCombo
+                            Layout.fillWidth: true
+                            model: main?.usCities ?? []
+                            enabled: !root.acting && !(main?.isLoadingCities ?? false) && (main?.usCities?.length ?? 0) > 0
+
+                            currentIndex: {
+                                const cities = main?.usCities ?? [];
+                                const selected = main?.selectedCity ?? "";
+                                return cities.indexOf(selected);
+                            }
+
+                            onActivated: {
+                                const cities = main?.usCities ?? [];
+                                if (index >= 0 && index < cities.length)
+                                    main.selectedCity = cities[index];
+                            }
+                        }
+
+                        NButton {
+                            text: pluginApi?.tr("panel.connect-city")
+                            enabled: !root.acting
+                                && !(main?.isLoadingCities ?? false)
+                                && ((main?.selectedCity ?? "") !== "")
+                            onClicked: main?.connectToCity(main?.selectedCity ?? "")
+                        }
+                    }
+
+                    NLabel {
+                        visible: (main?.isLoadingCities ?? false)
+                        label: pluginApi?.tr("panel.loading-cities-country", {
+                            country: (main?.selectedCountry ?? "us").toUpperCase()
+                        })
+                        labelColor: Color.mOnSurfaceVariant
+                    }
+                }
             }
 
             // ── Kill switch ──────────────────────────────────────────────────

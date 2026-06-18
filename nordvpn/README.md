@@ -47,6 +47,7 @@ Default plugin settings are defined in `manifest.json`:
 - `displayMode`: `alwaysShow`
 - `connectedColor`: `primary`
 - `disconnectedColor`: `error`
+- `country`: `us` (country code used for city list in panel)
 - `pollInterval`: `5000` (ms)
 
 ## How It Works
