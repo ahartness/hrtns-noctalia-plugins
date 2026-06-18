@@ -17,7 +17,7 @@
     "status-unknown": "Unknown",
     "load": "Load",
     "disconnect": "Disconnect",
-    "connect": "Connect",
+    "connect": "Quick Connect",
     "city-country": "City ({country})",
     "select-city": "Select a city",
     "search-city": "Search cities...",
