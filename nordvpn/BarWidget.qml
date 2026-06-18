@@ -64,7 +64,7 @@ Item {
     BarPill {
         id: pill
         screen: root.screen
-        oppositeDirection: BarService.getPillDirection(root)
+        oppositeDirection: false
         autoHide: false
 
         icon: root.pillIcon
