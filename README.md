@@ -57,6 +57,7 @@ Default plugin settings are defined in `manifest.json`:
 - `displayMode`: `alwaysShow`
 - `connectedColor`: `primary`
 - `disconnectedColor`: `error`
+- `country`: `us` (update this to your country if outside of US)
 - `pollInterval`: `5000` (ms)
 
 ### How It Works
