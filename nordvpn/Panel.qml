@@ -20,6 +20,14 @@ Item {
     readonly property string vpnStatus: main?.vpnStatus ?? "unknown"
     readonly property bool connected: vpnStatus === "connected"
     readonly property bool acting: main?.isActing ?? false
+    property string cityFilterText: ""
+
+    readonly property var filteredCities: {
+        const cities = main?.usCities ?? [];
+        const q = cityFilterText.trim().toLowerCase();
+        if (!q) return cities;
+        return cities.filter((city) => ("" + city).toLowerCase().indexOf(q) !== -1);
+    }
 
     property real contentPreferredWidth:  Math.round(360 * Style.uiScaleRatio)
     property real contentPreferredHeight: Math.round(mainCol.implicitHeight + Style.marginL * 2)
@@ -222,22 +230,41 @@ Item {
                         Layout.fillWidth: true
                         spacing: Style.marginS
 
-                        ComboBox {
-                            id: cityCombo
+                        NBox {
+                            id: citySelector
                             Layout.fillWidth: true
-                            model: main?.usCities ?? []
-                            enabled: !root.acting && !(main?.isLoadingCities ?? false) && (main?.usCities?.length ?? 0) > 0
+                            Layout.preferredHeight: Math.round(Style.baseWidgetSize * 0.9)
+                            opacity: !root.acting && !(main?.isLoadingCities ?? false) && (main?.usCities?.length ?? 0) > 0 ? 1 : 0.6
 
-                            currentIndex: {
-                                const cities = main?.usCities ?? [];
-                                const selected = main?.selectedCity ?? "";
-                                return cities.indexOf(selected);
+                            RowLayout {
+                                anchors.fill: parent
+                                anchors.margins: Style.marginS
+                                spacing: Style.marginS
+
+                                NLabel {
+                                    Layout.fillWidth: true
+                                    label: (main?.selectedCity ?? "") !== ""
+                                        ? (main?.selectedCity ?? "")
+                                        : (pluginApi?.tr("panel.select-city") ?? "Select a city")
+                                    labelColor: (main?.selectedCity ?? "") !== ""
+                                        ? Color.mOnSurface
+                                        : Color.mOnSurfaceVariant
+                                }
+
+                                NIcon {
+                                    icon: cityListPopup.opened ? "chevron-up" : "chevron-down"
+                                    pointSize: Style.fontSizeL
+                                    color: Color.mOnSurfaceVariant
+                                }
                             }
 
-                            onActivated: {
-                                const cities = main?.usCities ?? [];
-                                if (index >= 0 && index < cities.length)
-                                    main.selectedCity = cities[index];
+                            MouseArea {
+                                anchors.fill: parent
+                                enabled: !root.acting && !(main?.isLoadingCities ?? false) && (main?.usCities?.length ?? 0) > 0
+                                onClicked: {
+                                    if (cityListPopup.opened) cityListPopup.close();
+                                    else cityListPopup.open();
+                                }
                             }
                         }
 
@@ -247,6 +274,96 @@ Item {
                                 && !(main?.isLoadingCities ?? false)
                                 && ((main?.selectedCity ?? "") !== "")
                             onClicked: main?.connectToCity(main?.selectedCity ?? "")
+                        }
+                    }
+
+                    Popup {
+                        id: cityListPopup
+                        parent: root
+                        modal: false
+                        focus: true
+                        padding: 0
+                        width: citySelector.width
+                        height: Math.round(260 * Style.uiScaleRatio)
+                        x: citySelector.mapToItem(root, 0, citySelector.height + Style.marginXS).x
+                        y: citySelector.mapToItem(root, 0, citySelector.height + Style.marginXS).y
+                        closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
+
+                        onOpened: {
+                            root.cityFilterText = "";
+                            citySearchField.forceActiveFocus();
+                        }
+
+                        onClosed: root.cityFilterText = ""
+
+                        background: Rectangle {
+                            radius: Math.round(10 * Style.uiScaleRatio)
+                            color: Color.mSurface
+                            border.width: 1
+                            border.color: Color.mOutlineVariant
+                        }
+
+                        contentItem: ColumnLayout {
+                            anchors.fill: parent
+                            anchors.margins: Style.marginS
+                            spacing: Style.marginS
+
+                            TextField {
+                                id: citySearchField
+                                Layout.fillWidth: true
+                                placeholderText: pluginApi?.tr("panel.search-city")
+                                text: root.cityFilterText
+                                onTextChanged: root.cityFilterText = text
+                            }
+
+                            ScrollView {
+                                Layout.fillWidth: true
+                                Layout.fillHeight: true
+                                clip: true
+
+                                ListView {
+                                    id: cityListView
+                                    model: root.filteredCities
+                                    spacing: Style.marginXS
+
+                                    delegate: Rectangle {
+                                        required property string modelData
+                                        width: cityListView.width
+                                        height: Math.round(36 * Style.uiScaleRatio)
+                                        radius: Math.round(8 * Style.uiScaleRatio)
+                                        color: cityMouseArea.containsMouse
+                                            ? Color.mSurfaceVariant
+                                            : ((main?.selectedCity ?? "") === modelData ? Color.mSurfaceVariant : "transparent")
+
+                                        NLabel {
+                                            anchors.verticalCenter: parent.verticalCenter
+                                            anchors.left: parent.left
+                                            anchors.leftMargin: Style.marginS
+                                            anchors.right: parent.right
+                                            anchors.rightMargin: Style.marginS
+                                            label: modelData
+                                            labelColor: Color.mOnSurface
+                                        }
+
+                                        MouseArea {
+                                            id: cityMouseArea
+                                            anchors.fill: parent
+                                            hoverEnabled: true
+                                            onClicked: {
+                                                if (main) main.selectedCity = modelData;
+                                                cityListPopup.close();
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            NLabel {
+                                visible: root.filteredCities.length === 0
+                                label: pluginApi?.tr("panel.no-cities-found")
+                                labelColor: Color.mOnSurfaceVariant
+                                Layout.fillWidth: true
+                            }
                         }
                     }
 

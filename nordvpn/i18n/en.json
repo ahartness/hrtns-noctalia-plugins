@@ -3,9 +3,9 @@
     "pluginSettings": "Plugin Settings"
   },
   "bar": {
-    "disconnected-state": "VPN: Disconnected",
-    "connected-state": "VPN: Connected to {location}",
-    "connecting-state": "VPN: Connecting..."
+    "disconnected-state": "VPN Disconnected",
+    "connected-state": "VPN Connected: {location}",
+    "connecting-state": "VPN Connecting..."
   },
   "panel": {
     "title": "NordVPN",
@@ -19,6 +19,9 @@
     "disconnect": "Disconnect",
     "connect": "Connect",
     "city-country": "City ({country})",
+    "select-city": "Select a city",
+    "search-city": "Search cities...",
+    "no-cities-found": "No matching cities",
     "connect-city": "Connect",
     "loading-cities-country": "Loading cities for {country}...",
     "kill-switch": "Kill Switch",
