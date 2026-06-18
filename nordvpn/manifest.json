@@ -1,6 +1,6 @@
 {
-  "id": "nordvpn-test",
-  "name": "NordVPN Status (Testing)",
+  "id": "nordvpn",
+  "name": "NordVPN Status",
   "version": "0.1.0",
   "minNoctaliaVersion": "3.6.0",
   "author": "hrtns",

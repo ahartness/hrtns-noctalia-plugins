@@ -1,4 +1,4 @@
-# NordVPN Status (Testing) - Noctalia Bar Widget
+# NordVPN Status - Noctalia Bar Widget
 
 This plugin adds a NordVPN status widget to the Noctalia bar and a control panel for common NordVPN actions.
 
