@@ -1,8 +1,14 @@
-# NordVPN Status - Noctalia Bar Widget
+# Noctalia Plugins Repository
 
-This plugin adds a NordVPN status widget to the Noctalia bar and a control panel for common NordVPN actions.
+This repository contains Noctalia plugins. It is structured to support multiple plugins over time.
 
-## Features
+Currently, the only plugin included is the NordVPN plugin in `nordvpn/`.
+
+## Current Plugin: NordVPN
+
+The NordVPN plugin adds a NordVPN status widget to the Noctalia bar and a control panel for common NordVPN actions.
+
+### Features
 
 - Shows VPN status directly in the bar (`connected`, `disconnected`, or `unknown` while loading)
 - Displays server location in the bar when connected
@@ -20,13 +26,13 @@ This plugin adds a NordVPN status widget to the Noctalia bar and a control panel
   - Meshnet
   - LAN Discovery
 
-## Requirements
+### Requirements
 
 - Noctalia `>= 3.6.0`
 - NordVPN CLI installed and available in `PATH`
 - An authenticated NordVPN session (`nordvpn login`)
 
-## Installation
+### Installation
 
 Place this plugin folder under your Noctalia plugins directory and ensure Noctalia loads it.
 
@@ -38,9 +44,13 @@ Expected files:
 - `Panel.qml`
 - `i18n/en.json`
 
-Then restart Noctalia or reload plugins.
+Add the id to the `plugins.json`
 
-## Configuration
+Finally, restart Noctalia or reload plugins.
+
+[Full Noctalia Widget Docs](https://docs.noctalia.dev/v4/development/guidelines/)
+
+### Configuration
 
 Default plugin settings are defined in `manifest.json`:
 
@@ -49,7 +59,7 @@ Default plugin settings are defined in `manifest.json`:
 - `disconnectedColor`: `error`
 - `pollInterval`: `5000` (ms)
 
-## How It Works
+### How It Works
 
 - Polls `nordvpn status` and `nordvpn settings` on an interval.
 - Updates bar text/icon based on state.
@@ -60,7 +70,7 @@ Default plugin settings are defined in `manifest.json`:
   - `nordvpn set meshnet <on|off>`
   - `nordvpn set lan-discovery <on|off>`
 
-## Troubleshooting
+### Troubleshooting
 
 - If status stays unknown or disconnected, confirm the CLI works in terminal:
   - `nordvpn status`
@@ -68,8 +78,12 @@ Default plugin settings are defined in `manifest.json`:
 - If actions fail, check NordVPN authentication and permissions.
 - If the widget does not appear, verify the plugin manifest and entry points.
 
-## Project Metadata
+### Project Metadata
 
 - ID: `nordvpn-test`
 - Version: `0.1.0`
 - License: `MIT`
+
+## Planned Improvement
+
+For the NordVPN plugin, a planned enhancement is to add a connect option that offers a city dropdown list generated via `nordvpn cities <country>`.
