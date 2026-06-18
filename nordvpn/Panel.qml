@@ -5,6 +5,7 @@ import Quickshell
 import qs.Commons
 import qs.Services.UI
 import qs.Widgets
+import "./components"
 
 Item {
     id: root
@@ -115,13 +116,6 @@ Item {
                                 return Color.mOnSurfaceVariant;
                             }
                         }
-
-                        NLabel {
-                            visible: root.connected && (main?.protocol ?? "") !== ""
-                            label: (main?.protocol ?? "").toUpperCase()
-                            labelColor: Color.mOnSurfaceVariant
-                            Layout.fillWidth: true
-                        }
                     }
 
                     // Server name + location
@@ -200,114 +194,39 @@ Item {
             }
 
             // ── Kill switch ──────────────────────────────────────────────────
-            NBox {
-                Layout.fillWidth: true
-                Layout.preferredHeight: Math.round(ksRow.implicitHeight + Style.marginM * 2)
-
-                RowLayout {
-                    id: ksRow
-                    anchors.fill: parent
-                    anchors.margins: Style.marginM
-                    spacing: Style.marginM
-
-                    NIcon {
-                        icon: "bolt"
-                        pointSize: Style.fontSizeL
-                        color: (main?.killSwitch ?? "disabled") === "enabled"
-                               ? Color.mPrimary : Color.mOnSurfaceVariant
-                    }
-
-                    NLabel {
-                        label: pluginApi?.tr("panel.kill-switch")
-                        description: {
-                            const ks = main?.killSwitch ?? "unknown";
-                            if (ks === "enabled")      return pluginApi?.tr("panel.kill-switch-desc");
-                            if (ks === "disabled")      return pluginApi?.tr("panel.kill-switch-disabled");
-                            return pluginApi?.tr("panel.loading");
-                        }
-                        Layout.fillWidth: true
-                    }
-
-                    NToggle {
-                        checked: (main?.killSwitch ?? "disabled") === "enabled"
-                        enabled: !root.acting && (main?.killSwitch ?? "unknown") !== "unknown"
-                        onToggled: (isChecked) => main?.setKillSwitch(isChecked ? "on" : "off")
-                    }
-                }
+            ToggleSettingCard {
+                pluginApi: root.pluginApi
+                iconName: "bolt"
+                labelKey: "panel.kill-switch"
+                enabledDescKey: "panel.kill-switch-desc"
+                disabledDescKey: "panel.kill-switch-disabled"
+                currentValue: main?.killSwitch ?? "unknown"
+                acting: root.acting
+                onToggleRequested: (isChecked) => main?.setKillSwitch(isChecked ? "on" : "off")
             }
 
             // ── Meshnet ──────────────────────────────────────────────────
-            NBox {
-                Layout.fillWidth: true
-                Layout.preferredHeight: Math.round(mnRow.implicitHeight + Style.marginM * 2)
-
-                RowLayout {
-                    id: mnRow
-                    anchors.fill: parent
-                    anchors.margins: Style.marginM
-                    spacing: Style.marginM
-
-                    NIcon {
-                        icon: "cloud-network"
-                        pointSize: Style.fontSizeL
-                        color: (main?.meshnet ?? "disabled") === "enabled"
-                               ? Color.mPrimary : Color.mOnSurfaceVariant
-                    }
-
-                    NLabel {
-                        label: pluginApi?.tr("panel.meshnet")
-                        description: {
-                            const mn = main?.meshnet ?? "unknown";
-                            if (mn === "enabled")      return pluginApi?.tr("panel.meshnet-desc");
-                            if (mn === "disabled")      return pluginApi?.tr("panel.meshnet-disabled");
-                            return pluginApi?.tr("panel.loading");
-                        }
-                        Layout.fillWidth: true
-                    }
-
-                    NToggle {
-                        checked: (main?.meshnet ?? "disabled") === "enabled"
-                        enabled: !root.acting && (main?.meshnet ?? "unknown") !== "unknown"
-                        onToggled: (isChecked) => main?.setMeshnet(isChecked ? "on" : "off")
-                    }
-                }
+            ToggleSettingCard {
+                pluginApi: root.pluginApi
+                iconName: "cloud-network"
+                labelKey: "panel.meshnet"
+                enabledDescKey: "panel.meshnet-desc"
+                disabledDescKey: "panel.meshnet-disabled"
+                currentValue: main?.meshnet ?? "unknown"
+                acting: root.acting
+                onToggleRequested: (isChecked) => main?.setMeshnet(isChecked ? "on" : "off")
             }
 
             // ── LAN Discovery ──────────────────────────────────────────────────
-            NBox {
-                Layout.fillWidth: true
-                Layout.preferredHeight: Math.round(ldRow.implicitHeight + Style.marginM * 2)
-
-                RowLayout {
-                    id: ldRow
-                    anchors.fill: parent
-                    anchors.margins: Style.marginM
-                    spacing: Style.marginM
-
-                    NIcon {
-                        icon: "devices-pc"
-                        pointSize: Style.fontSizeL
-                        color: (main?.lanDiscovery ?? "disabled") === "enabled"
-                               ? Color.mPrimary : Color.mOnSurfaceVariant
-                    }
-
-                    NLabel {
-                        label: pluginApi?.tr("panel.lan-discovery")
-                        description: {
-                            const mn = main?.lanDiscovery ?? "unknown";
-                            if (mn === "enabled")      return pluginApi?.tr("panel.lan-discovery-desc");
-                            if (mn === "disabled")      return pluginApi?.tr("panel.lan-discovery-disabled");
-                            return pluginApi?.tr("panel.loading");
-                        }
-                        Layout.fillWidth: true
-                    }
-
-                    NToggle {
-                        checked: (main?.lanDiscovery ?? "disabled") === "enabled"
-                        enabled: !root.acting && (main?.lanDiscovery ?? "unknown") !== "unknown"
-                        onToggled: (isChecked) => main?.setLanDiscovery(isChecked ? "on" : "off")
-                    }
-                }
+            ToggleSettingCard {
+                pluginApi: root.pluginApi
+                iconName: "devices-pc"
+                labelKey: "panel.lan-discovery"
+                enabledDescKey: "panel.lan-discovery-desc"
+                disabledDescKey: "panel.lan-discovery-disabled"
+                currentValue: main?.lanDiscovery ?? "unknown"
+                acting: root.acting
+                onToggleRequested: (isChecked) => main?.setLanDiscovery(isChecked ? "on" : "off")
             }
           }
     }

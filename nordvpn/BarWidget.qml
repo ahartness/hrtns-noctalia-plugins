@@ -24,7 +24,7 @@ Item {
 
     readonly property string displayMode: pluginSettings.displayMode ?? "alwaysShow"
     readonly property string connectedColor: pluginSettings.connectedColor ?? "primary"
-    readonly property string disconnectedColor: pluginSettings.disconnectedColor ?? "none"
+    readonly property string disconnectedColor: pluginSettings.disconnectedColor ?? "error"
 
     readonly property string vpnStatus: main.vpnStatus ?? "unknown"
     readonly property bool connected: vpnStatus === "connected"
@@ -32,14 +32,13 @@ Item {
 
     readonly property string pillIcon: {
         if (isLoading) return "reload";
-        if (connected) return "brand-nord-vpn";
         return "brand-nord-vpn";
     }
 
     readonly property string pillText: {
-        if (isLoading) return "Connecting...";
-        if (connected) return "VPN Connected: " + (main.serverLocation ?? "");
-        return "VPN Disconnected";
+        if (isLoading) return pluginApi?.tr("bar.connecting-state") ?? "Connecting...";
+        if (connected) return pluginApi?.tr("bar.connected-state", { location: main.serverLocation ?? "Unknown", name: main.serverName ?? "Unknown" }) ?? "VPN Connected";
+        return pluginApi?.tr("bar.disconnected-state") ?? "VPN Disconnected";
     }
 
     readonly property color activeColor: connected ? connectedColor : disconnectedColor
@@ -73,11 +72,11 @@ Item {
         tooltipText: {
             if (root.connected) {
                 const loc = root.main.serverLocation ?? "";
-                // const proto = root.main.protocol ?? "";
+                const name = root.main.serverName ?? "";
                 const parts = [];
                 if (loc) parts.push(loc);
-                // if (proto) parts.push(proto.toUpperCase());
-                // return parts.join(" · ");
+                if (name) parts.push(name);
+                return parts.length === 0 ? root.pillText : parts.join(" · ");
             }
             return pluginApi?.tr("bar.disconnected-state");
         }

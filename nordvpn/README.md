@@ -70,6 +70,6 @@ Default plugin settings are defined in `manifest.json`:
 
 ## Project Metadata
 
-- ID: `nordvpn-test`
+- ID: `nordvpn`
 - Version: `0.1.0`
 - License: `MIT`

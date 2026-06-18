@@ -13,7 +13,6 @@ Item {
     property string vpnStatus: "unknown"   // "connected" | "disconnected" | "unknown"
     property string serverName: ""
     property string serverLocation: ""
-    property string protocol: ""
     property string transfer: ""
     property string uptime: ""
     property int    serverLoad: -1
@@ -45,7 +44,7 @@ Item {
 
             if (statusMatch[1].toLowerCase() === "connected") {
                 root.vpnStatus = "connected";
-                const cityMatch = text.match(/City:\s+(\S+)/i);
+                const cityMatch = text.match(/City:\s*(.+)/i);
                 if (cityMatch) {
                     root.serverLocation = cityMatch[1].trim();
                 }

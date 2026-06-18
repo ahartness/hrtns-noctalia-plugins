@@ -3,7 +3,9 @@
     "pluginSettings": "Plugin Settings"
   },
   "bar": {
-    "disconnected-state": "NordVPN: Disconnected-state"
+    "disconnected-state": "VPN: Disconnected",
+    "connected-state": "VPN: Connected to {location} ({name})",
+    "connecting-state": "VPN: Connecting..."
   },
   "panel": {
     "title": "NordVPN",
@@ -12,7 +14,7 @@
     "status-connected": "Connected",
     "status-disconnected": "Disconnected",
     "status-connecting": "Connecting...",
-    "status-unkown": "Unknown",
+    "status-unknown": "Unknown",
     "load": "Load",
     "disconnect": "Disconnect",
     "connect": "Connect",
