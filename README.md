@@ -86,5 +86,5 @@ Default plugin settings are defined in `manifest.json`:
 
 ## Planned Improvement
 
-- [ ] For the NordVPN plugin, a planned enhancement is to add a connect option that offers a city dropdown list generated via `nordvpn cities <country>`.
-- [ ] Fix the tooltip on the `BarWidget.qml`
+- [x] For the NordVPN plugin, a planned enhancement is to add a connect option that offers a city dropdown list generated via `nordvpn cities <country>`.
+- [x] Fix the tooltip on the `BarWidget.qml`
