@@ -308,18 +308,45 @@ Item {
                             anchors.margins: Style.marginS
                             spacing: Style.marginS
 
-                            TextField {
-                                id: citySearchField
+                            NBox {
                                 Layout.fillWidth: true
-                                placeholderText: pluginApi?.tr("panel.search-city")
-                                text: root.cityFilterText
-                                onTextChanged: root.cityFilterText = text
+                                Layout.preferredHeight: Math.round(Style.baseWidgetSize * 0.85)
+
+                                RowLayout {
+                                    anchors.fill: parent
+                                    anchors.margins: Style.marginS
+                                    spacing: Style.marginS
+
+                                    NIcon {
+                                        icon: "search"
+                                        pointSize: Style.fontSizeL
+                                        color: Color.mOnSurfaceVariant
+                                    }
+
+                                    TextField {
+                                        id: citySearchField
+                                        Layout.fillWidth: true
+                                        placeholderText: pluginApi?.tr("panel.search-city")
+                                        text: root.cityFilterText
+                                        selectByMouse: true
+                                        color: Color.mOnSurface
+                                        placeholderTextColor: Color.mOnSurfaceVariant
+                                        background: Rectangle { color: "transparent" }
+                                        onTextChanged: root.cityFilterText = text
+                                        onAccepted: {
+                                            if (root.filteredCities.length > 0 && main)
+                                                main.selectedCity = root.filteredCities[0];
+                                            cityListPopup.close();
+                                        }
+                                    }
+                                }
                             }
 
                             ScrollView {
                                 Layout.fillWidth: true
                                 Layout.fillHeight: true
                                 clip: true
+                                ScrollBar.vertical.policy: ScrollBar.AsNeeded
 
                                 ListView {
                                     id: cityListView
@@ -331,6 +358,8 @@ Item {
                                         width: cityListView.width
                                         height: Math.round(36 * Style.uiScaleRatio)
                                         radius: Math.round(8 * Style.uiScaleRatio)
+                                        border.width: (main?.selectedCity ?? "") === modelData ? 1 : 0
+                                        border.color: Color.mOutlineVariant
                                         color: cityMouseArea.containsMouse
                                             ? Color.mSurfaceVariant
                                             : ((main?.selectedCity ?? "") === modelData ? Color.mSurfaceVariant : "transparent")
@@ -343,6 +372,16 @@ Item {
                                             anchors.rightMargin: Style.marginS
                                             label: modelData
                                             labelColor: Color.mOnSurface
+                                        }
+
+                                        NIcon {
+                                            visible: (main?.selectedCity ?? "") === modelData
+                                            anchors.verticalCenter: parent.verticalCenter
+                                            anchors.right: parent.right
+                                            anchors.rightMargin: Style.marginS
+                                            icon: "check"
+                                            pointSize: Style.fontSizeM
+                                            color: Color.mPrimary
                                         }
 
                                         MouseArea {
