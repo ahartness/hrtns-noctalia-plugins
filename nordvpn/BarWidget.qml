@@ -64,7 +64,7 @@ Item {
     BarPill {
         id: pill
         screen: root.screen
-        oppositeDirection: false
+        oppositeDirection: true 
         autoHide: false
 
         icon: root.pillIcon
