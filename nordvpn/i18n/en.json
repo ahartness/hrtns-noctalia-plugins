@@ -22,7 +22,7 @@
     "meshnet": "Meshnet",
     "meshnet-disabled": "Disabled",
     "meshnet-desc": "Host Discoverable over VPN",
-    "lan-discovery": "LAN Discoery",
+    "lan-discovery": "LAN Discovery",
     "lan-discovery-disabled": "Disabled",
     "lan-discovery-desc": "Allows Discovery on LAN",
     "loading": "Loading..."
