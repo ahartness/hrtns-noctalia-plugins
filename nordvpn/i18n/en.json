@@ -19,6 +19,12 @@
     "kill-switch": "Kill Switch",
     "kill-switch-desc": "Blocks Internet if VPN Drops",
     "kill-switch-disabled": "Disabled",
+    "meshnet": "Meshnet",
+    "meshnet-disabled": "Disabled",
+    "meshnet-desc": "Host Discoverable over VPN",
+    "lan-discovery": "LAN Discoery",
+    "lan-discovery-disabled": "Disabled",
+    "lan-discovery-desc": "Allows Discovery on LAN",
     "loading": "Loading..."
   }
 }

@@ -1,5 +1,8 @@
 import QtQuick
 import Quickshell.Io
+import qs.Commons
+import qs.Widgets
+import qs.Services.UI
 
 Item {
     id: root
@@ -11,6 +14,8 @@ Item {
     property string serverName: ""
     property string serverLocation: ""
     property string protocol: ""
+    property string transfer: ""
+    property string uptime: ""
     property int    serverLoad: -1
     property bool   isLoading: true        // true until first poll result
     property bool   isActing: false        // true while connect/disconnect/config runs
@@ -18,6 +23,8 @@ Item {
 
     // Config state
     property string killSwitch: "unknown"  // "disabled" | "enabled" | "unknown"
+    property string meshnet: "unknown"
+    property string lanDiscovery: "unknown"
 
     readonly property int pollInterval: pluginApi?.pluginSettings?.pollInterval ?? 5000
 
@@ -38,15 +45,16 @@ Item {
 
             if (statusMatch[1].toLowerCase() === "connected") {
                 root.vpnStatus = "connected";
-                const serverMatch = text.match(/City:\s+(\S+)/i);
-                if (serverMatch) {
-                    // root.serverName     = serverMatch[1];
-                    root.serverLocation = serverMatch[1].trim();
+                const cityMatch = text.match(/City:\s+(\S+)/i);
+                if (cityMatch) {
+                    root.serverLocation = cityMatch[1].trim();
                 }
-                // const protoMatch = text.match(/Transfer:\s*(\S+)/i);
-                // root.protocol = protoMatch ? protoMatch[1] : "";
-                // const loadMatch = text.match(/Load:\s*(\d+)/i);
-                // root.serverLoad = loadMatch ? parseInt(loadMatch[1]) : -1;
+                const transferMatch = text.match(/Transfer:\s*(.+)/i);
+                const serverMatch = text.match(/Server:\s*(.+)/i);
+                const uptimeMatch = text.match(/Uptime:\s*(.+)/i);
+                root.transfer = transferMatch ? transferMatch[1] : "";
+                root.serverName = serverMatch ? serverMatch[1] : "";
+                root.uptime = uptimeMatch ? uptimeMatch[1] : "";
             } else {
                 root.vpnStatus = "disconnected";
                 root.serverName = root.serverLocation = "";
@@ -71,7 +79,11 @@ Item {
         id: configOut
         onStreamFinished: {
             const ksMatch = this.text.match(/Kill Switch:\s+(\S+)/i);
-            root.killSwitch = ksMatch ? ksMatch[2].toLowerCase() : "unknown";
+            const mnMatch = this.text.match(/Meshnet:\s+(\S+)/i);
+            const lanMatch = this.text.match(/LAN Discovery:\s+(\S+)/i)
+            root.killSwitch = ksMatch ? ksMatch[1].toLowerCase() : "unknown";
+            root.meshnet = mnMatch ? mnMatch[1].toLowerCase() : "unknown";
+            root.lanDiscovery = lanMatch ? lanMatch[1].toLowerCase() : "unknown";
         }
     }
 
@@ -116,12 +128,20 @@ Item {
     }
 
     function connect()           { _run(["nordvpn", "connect"]);                          }
-    // function connectSecureCore() { _run(["protonvpn", "connect", "--securecore"]);          }
-    // function connectP2P()        { _run(["protonvpn", "connect", "--p2p"]);                 }
     function disconnect()        { _run(["nordvpn", "disconnect"]);                       }
 
     function setKillSwitch(value) {
-        // value: "off" | "standard"
-        _run(["nordvpn", "config", "set", "kill-switch", value]);
+        // value: "off" | "on"
+        _run(["nordvpn", "set", "killswitch", value]);
+    }
+    
+    function setMeshnet(value) {
+        // value: "off" | "on"
+        _run(["nordvpn", "set", "meshnet", value]);
+    }
+
+    function setLanDiscovery(value) {
+        // value: "off" | "on"
+        _run(["nordvpn", "set", "lan-discovery", value]);
     }
 }

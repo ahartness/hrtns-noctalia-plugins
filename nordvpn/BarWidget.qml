@@ -42,7 +42,7 @@ Item {
         return "VPN Disconnected";
     }
 
-    readonly property string activeColor: connected ? connectedColor : disconnectedColor
+    readonly property color activeColor: connected ? connectedColor : disconnectedColor
 
     implicitWidth: pill.width
     implicitHeight: pill.height
@@ -77,7 +77,7 @@ Item {
                 const parts = [];
                 if (loc) parts.push(loc);
                 // if (proto) parts.push(proto.toUpperCase());
-                return parts.join(" · ");
+                // return parts.join(" · ");
             }
             return pluginApi?.tr("bar.disconnected-state");
         }

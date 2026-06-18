@@ -1,6 +1,6 @@
 {
-  "id": "nordvpn",
-  "name": "NordVPN Status",
+  "id": "nordvpn-test",
+  "name": "NordVPN Status (Testing)",
   "version": "0.1.0",
   "minNoctaliaVersion": "3.6.0",
   "author": "hrtns",
@@ -19,8 +19,8 @@
   "metadata": {
     "defaultSettings": {
       "displayMode": "alwaysShow",
-      "connectedColor": "#4687FF",
-      "disconnectedColor": "#ff0000",
+      "connectedColor": "primary",
+      "disconnectedColor": "error",
       "pollInterval": 5000
     }
   }

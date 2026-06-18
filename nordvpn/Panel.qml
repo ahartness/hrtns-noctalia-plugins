@@ -95,7 +95,7 @@ Item {
                             radius: width / 2
                             color: {
                                 if (root.acting)    return Color.mTertiary;
-                                if (root.connected) return "#4687FF";
+                                if (root.connected) return Color.mPrimary;
                                 if (root.vpnStatus === "disconnected") return Color.mError;
                                 return Color.mOnSurfaceVariant;
                             }
@@ -110,7 +110,7 @@ Item {
                             }
                             labelColor: {
                                 if (root.acting)    return Color.mTertiary;
-                                if (root.connected) return "#4687FF";
+                                if (root.connected) return Color.mPrimary;
                                 if (root.vpnStatus === "disconnected") return Color.mError;
                                 return Color.mOnSurfaceVariant;
                             }
@@ -127,7 +127,23 @@ Item {
                     // Server name + location
                     NLabel {
                         visible: root.connected && (main?.serverLocation ?? "") !== ""
-                        label: ((main?.serverLocation ?? "") !== "" ? "  ·  " + main.serverLocation : "")
+                        label: (main?.serverLocation ?? "") + ", " + (main?.serverName ?? "")
+                        labelColor: Color.mOnSurface
+                        Layout.fillWidth: true
+                    }
+
+                    // Transfer
+                    NLabel {
+                        visible: root.connected && (main?.transfer ?? "") !== ""
+                        label: main?.transfer ?? ""
+                        labelColor: Color.mOnSurface
+                        Layout.fillWidth: true
+                    }
+
+                    // uptime
+                    NLabel {
+                        visible: root.connected && (main?.uptime ?? "") !== ""
+                        label: main?.uptime ?? ""
                         labelColor: Color.mOnSurface
                         Layout.fillWidth: true
                     }
@@ -197,7 +213,7 @@ Item {
                     NIcon {
                         icon: "bolt"
                         pointSize: Style.fontSizeL
-                        color: (main?.killSwitch ?? "off") === "standard"
+                        color: (main?.killSwitch ?? "disabled") === "enabled"
                                ? Color.mPrimary : Color.mOnSurfaceVariant
                     }
 
@@ -213,52 +229,86 @@ Item {
                     }
 
                     NToggle {
-                        checked: (main?.killSwitch ?? "off") === "standard"
+                        checked: (main?.killSwitch ?? "disabled") === "enabled"
                         enabled: !root.acting && (main?.killSwitch ?? "unknown") !== "unknown"
-                        onToggled: (isChecked) => main?.setKillSwitch(isChecked ? "standard" : "off")
+                        onToggled: (isChecked) => main?.setKillSwitch(isChecked ? "on" : "off")
                     }
                 }
             }
 
-            // ── Quick connect options (disconnected only) ────────────────────
-            // NBox {
-            //     Layout.fillWidth: true
-            //     visible: !root.connected
-            //     Layout.preferredHeight: Math.round(quickCol.implicitHeight + Style.marginM * 2)
-            //
-            //     ColumnLayout {
-            //         id: quickCol
-            //         anchors.fill: parent
-            //         anchors.margins: Style.marginM
-            //         spacing: Style.marginS
-            //
-            //         NLabel {
-            //             label: pluginApi?.tr("panel.quick-connect")
-            //             labelColor: Color.mOnSurfaceVariant
-            //         }
-            //
-            //         GridLayout {
-            //             columns: 2
-            //             Layout.fillWidth: true
-            //             columnSpacing: Style.marginS
-            //             rowSpacing: Style.marginS
-            //
-            //             NButton {
-            //                 Layout.fillWidth: true
-            //                 text: pluginApi?.tr("panel.secure-core")
-            //                 enabled: !root.acting
-            //                 onClicked: main?.connectSecureCore()
-            //             }
-            //
-            //             NButton {
-            //                 Layout.fillWidth: true
-            //                 text: pluginApi?.tr("panel.p2p")
-            //                 enabled: !root.acting
-            //                 onClicked: main?.connectP2P()
-            //             }
-            //         }
-            //     }
-            // }
-        }
+            // ── Meshnet ──────────────────────────────────────────────────
+            NBox {
+                Layout.fillWidth: true
+                Layout.preferredHeight: Math.round(mnRow.implicitHeight + Style.marginM * 2)
+
+                RowLayout {
+                    id: mnRow
+                    anchors.fill: parent
+                    anchors.margins: Style.marginM
+                    spacing: Style.marginM
+
+                    NIcon {
+                        icon: "cloud-network"
+                        pointSize: Style.fontSizeL
+                        color: (main?.meshnet ?? "disabled") === "enabled"
+                               ? Color.mPrimary : Color.mOnSurfaceVariant
+                    }
+
+                    NLabel {
+                        label: pluginApi?.tr("panel.meshnet")
+                        description: {
+                            const mn = main?.meshnet ?? "unknown";
+                            if (mn === "enabled")      return pluginApi?.tr("panel.meshnet-desc");
+                            if (mn === "disabled")      return pluginApi?.tr("panel.meshnet-disabled");
+                            return pluginApi?.tr("panel.loading");
+                        }
+                        Layout.fillWidth: true
+                    }
+
+                    NToggle {
+                        checked: (main?.meshnet ?? "disabled") === "enabled"
+                        enabled: !root.acting && (main?.meshnet ?? "unknown") !== "unknown"
+                        onToggled: (isChecked) => main?.setMeshnet(isChecked ? "on" : "off")
+                    }
+                }
+            }
+
+            // ── LAN Discovery ──────────────────────────────────────────────────
+            NBox {
+                Layout.fillWidth: true
+                Layout.preferredHeight: Math.round(ldRow.implicitHeight + Style.marginM * 2)
+
+                RowLayout {
+                    id: ldRow
+                    anchors.fill: parent
+                    anchors.margins: Style.marginM
+                    spacing: Style.marginM
+
+                    NIcon {
+                        icon: "devices-pc"
+                        pointSize: Style.fontSizeL
+                        color: (main?.lanDiscovery ?? "disabled") === "enabled"
+                               ? Color.mPrimary : Color.mOnSurfaceVariant
+                    }
+
+                    NLabel {
+                        label: pluginApi?.tr("panel.lan-discovery")
+                        description: {
+                            const mn = main?.lanDiscovery ?? "unknown";
+                            if (mn === "enabled")      return pluginApi?.tr("panel.lan-discovery-desc");
+                            if (mn === "disabled")      return pluginApi?.tr("panel.lan-discovery-disabled");
+                            return pluginApi?.tr("panel.loading");
+                        }
+                        Layout.fillWidth: true
+                    }
+
+                    NToggle {
+                        checked: (main?.lanDiscovery ?? "disabled") === "enabled"
+                        enabled: !root.acting && (main?.lanDiscovery ?? "unknown") !== "unknown"
+                        onToggled: (isChecked) => main?.setLanDiscovery(isChecked ? "on" : "off")
+                    }
+                }
+            }
+          }
     }
 }
