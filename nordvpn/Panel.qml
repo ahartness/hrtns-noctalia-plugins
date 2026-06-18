@@ -451,6 +451,18 @@ Item {
                 acting: root.acting
                 onToggleRequested: (isChecked) => main?.setLanDiscovery(isChecked ? "on" : "off")
             }
+
+            // ── Notifications ───────────────────────────────────────────────
+            ToggleSettingCard {
+                pluginApi: root.pluginApi
+                iconName: "bell"
+                labelKey: "panel.notify"
+                enabledDescKey: "panel.notify-desc"
+                disabledDescKey: "panel.notify-disabled"
+                currentValue: main?.notify ?? "unknown"
+                acting: root.acting
+                onToggleRequested: (isChecked) => main?.setNotify(isChecked ? "on" : "off")
+            }
           }
     }
 }

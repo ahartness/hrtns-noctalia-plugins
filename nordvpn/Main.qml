@@ -24,6 +24,7 @@ Item {
     property string killSwitch: "unknown"  // "disabled" | "enabled" | "unknown"
     property string meshnet: "unknown"
     property string lanDiscovery: "unknown"
+    property string notify: "unknown"
 
     // City selector state
     property var    usCities: []
@@ -132,9 +133,11 @@ Item {
             const ksMatch = this.text.match(/Kill Switch:\s+(\S+)/i);
             const mnMatch = this.text.match(/Meshnet:\s+(\S+)/i);
             const lanMatch = this.text.match(/LAN Discovery:\s+(\S+)/i)
+            const notifyMatch = this.text.match(/Notify:\s+(\S+)/i)
             root.killSwitch = ksMatch ? ksMatch[1].toLowerCase() : "unknown";
             root.meshnet = mnMatch ? mnMatch[1].toLowerCase() : "unknown";
             root.lanDiscovery = lanMatch ? lanMatch[1].toLowerCase() : "unknown";
+            root.notify = notifyMatch ? notifyMatch[1].toLowerCase() : "unknown";
         }
     }
 
@@ -236,5 +239,10 @@ Item {
     function setLanDiscovery(value) {
         // value: "off" | "on"
         _run(["nordvpn", "set", "lan-discovery", value]);
+    }
+
+    function setNotify(value) {
+        // value: "off" | "on"
+        _run(["nordvpn", "set", "notify", value]);
     }
 }

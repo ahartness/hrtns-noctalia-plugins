@@ -33,6 +33,9 @@
     "lan-discovery": "LAN Discovery",
     "lan-discovery-disabled": "Disabled",
     "lan-discovery-desc": "Allows Discovery on LAN",
+    "notify": "Notifications",
+    "notify-disabled": "Disabled",
+    "notify-desc": "Show NordVPN notifications",
     "loading": "Loading..."
   }
 }
