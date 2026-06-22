@@ -3,7 +3,6 @@ import Quickshell
 import qs.Commons
 import qs.Modules.Bar.Extras
 import qs.Services.UI
-import qs.Widgets
 
 Item {
 	id: root
@@ -23,25 +22,6 @@ Item {
 	implicitWidth: pill.width
 	implicitHeight: pill.height
 
-	NPopupContextMenu {
-		id: contextMenu
-		model: [
-			{
-				label: pluginApi?.tr("settings.pluginSettings") ?? "Plugin Settings",
-				action: "plugin-settings",
-				icon: "settings"
-			}
-		]
-
-		onTriggered: action => {
-			contextMenu.close();
-			PanelService.closeContextMenu(screen);
-
-			if (action === "plugin-settings" && pluginApi)
-				BarService.openPluginSettings(screen, pluginApi.manifest);
-		}
-	}
-
 	BarPill {
 		id: pill
 		screen: root.screen
@@ -58,7 +38,8 @@ Item {
 		}
 
 		onRightClicked: {
-			PanelService.showContextMenu(contextMenu, pill, screen);
+			if (pluginApi)
+				BarService.openPluginSettings(screen, pluginApi.manifest);
 		}
 	}
 }
