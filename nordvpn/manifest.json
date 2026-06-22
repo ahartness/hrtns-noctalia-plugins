@@ -1,7 +1,7 @@
 {
   "id": "nordvpn",
   "name": "NordVPN Status",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "minNoctaliaVersion": "3.6.0",
   "author": "hrtns",
   "license": "MIT",
