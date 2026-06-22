@@ -2,9 +2,43 @@
 
 This repository contains Noctalia plugins. It is structured to support multiple plugins over time.
 
-Currently, the only plugin included is the NordVPN plugin in `nordvpn/`.
+## Included Plugins
 
-## Current Plugin: NordVPN
+- `display-switcher/` - Display layout switcher with bar icon and panel actions
+- `nordvpn/` - NordVPN status and controls
+
+## Plugin: Display Switcher
+
+The Display Switcher plugin adds a display icon to the Noctalia bar and opens a panel with quick layout buttons.
+
+### Features
+
+- Icon-only bar widget
+- Panel buttons to switch display presets:
+  - Single
+  - Dual
+  - Ultrawide
+  - Steam Deck
+- Runs your Niri layout script with matching mode arguments
+- Bar icon changes by last selected layout:
+  - `device-desktop` for `single` and `ultrawide`
+  - `device-desktop-plus` for `dual`
+  - `device-gamepad` for `steamdeck`
+
+### Requirements
+
+- Noctalia `>= 3.6.0`
+- Niri installed
+- Script available at:
+  - `$HOME/.config/niri/cfg/monitors/switch_layout.sh`
+
+### Configuration
+
+Default plugin settings in `display-switcher/manifest.json`:
+
+- `scriptPath`: `$HOME/.config/niri/cfg/monitors/switch_layout.sh`
+
+## Plugin: NordVPN
 
 The NordVPN plugin adds a NordVPN status widget to the Noctalia bar and a control panel for common NordVPN actions.
 
@@ -84,6 +118,22 @@ Default plugin settings are defined in `manifest.json`:
 - ID: `nordvpn`
 - Version: `0.1.0`
 - License: `MIT`
+
+## Installation
+
+Place plugin folders under your Noctalia plugins directory and ensure Noctalia loads them.
+
+Each plugin directory should contain:
+
+- `manifest.json`
+- `Main.qml`
+- `BarWidget.qml`
+- `Panel.qml`
+- `i18n/en.json`
+
+Add desired plugin IDs to your `plugins.json`, then restart Noctalia or reload plugins.
+
+[Full Noctalia Widget Docs](https://docs.noctalia.dev/v4/development/guidelines/)
 
 ## Planned Improvement
 

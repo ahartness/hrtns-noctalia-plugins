@@ -1,0 +1,24 @@
+{
+  "id": "display-switcher",
+  "name": "Display Switcher",
+  "version": "0.1.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "hrtns",
+  "license": "MIT",
+  "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
+  "description": "Display switcher for multiple monitors",
+  "tags": ["Bar", "Display", "Monitor", "Utility"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "scriptPath": "$HOME/.config/niri/cfg/monitors/switch_layout.sh"
+    }
+  }
+}

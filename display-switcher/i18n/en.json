@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "pluginSettings": "Plugin Settings"
+  },
+  "bar": {
+    "tooltip": "Display layouts"
+  },
+  "panel": {
+    "title": "Display Switcher",
+    "close": "Close",
+    "choose-layout": "Choose a monitor layout",
+    "single": "Single 16:9 Monitor",
+    "dual": "Dual Monitor Setup",
+    "ultrawide": "Ultrawide Monitor",
+    "steamdeck": "Steam Deck",
+    "switching": "Switching display layout...",
+    "success": "Layout switched: {mode}",
+    "error-prefix": "Failed",
+    "loading": "Loading..."
+  }
+}

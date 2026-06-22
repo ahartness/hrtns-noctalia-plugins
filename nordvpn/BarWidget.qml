@@ -31,13 +31,18 @@ Item {
     readonly property bool isLoading: main.isLoading ?? false
 
     readonly property string pillIcon: {
-        if (isLoading) return "reload";
+        if (isLoading)
+            return "reload";
         return "brand-nord-vpn";
     }
 
     readonly property string pillText: {
-        if (isLoading) return pluginApi?.tr("bar.connecting-state") ?? "Connecting...";
-        if (connected) return pluginApi?.tr("bar.connected-state", { location: main.serverLocation ?? "Unknown" }) ?? "VPN Connected";
+        if (isLoading)
+            return pluginApi?.tr("bar.connecting-state") ?? "Connecting...";
+        if (connected)
+            return pluginApi?.tr("bar.connected-state", {
+                location: main.serverLocation ?? "Unknown"
+            }) ?? "VPN Connected";
         return pluginApi?.tr("bar.disconnected-state") ?? "VPN Disconnected";
     }
 
@@ -48,12 +53,14 @@ Item {
 
     NPopupContextMenu {
         id: contextMenu
-        model: [{
-            label: pluginApi?.tr("settings.pluginSettings"),
-            action: "plugin-settings",
-            icon: "settings"
-        }]
-        onTriggered: (action) => {
+        model: [
+            {
+                label: pluginApi?.tr("settings.pluginSettings"),
+                action: "plugin-settings",
+                icon: "settings"
+            }
+        ]
+        onTriggered: action => {
             contextMenu.close();
             PanelService.closeContextMenu(screen);
             if (action === "plugin-settings" && pluginApi)
@@ -64,7 +71,7 @@ Item {
     BarPill {
         id: pill
         screen: root.screen
-        oppositeDirection: true 
+        oppositeDirection: true
         autoHide: false
 
         icon: root.pillIcon
@@ -74,8 +81,10 @@ Item {
                 const loc = root.main.serverLocation ?? "";
                 const name = root.main.serverName ?? "";
                 const parts = [];
-                if (loc) parts.push(loc);
-                if (name) parts.push(name);
+                if (loc)
+                    parts.push(loc);
+                if (name)
+                    parts.push(name);
                 return parts.length === 0 ? root.pillText : parts.join(" · ");
             }
             return pluginApi?.tr("bar.disconnected-state");
