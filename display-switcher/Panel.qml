@@ -141,7 +141,6 @@ Item {
 						visible: root.hasError
 						label: (pluginApi?.tr("panel.error-prefix") ?? "Failed:") + " " + (main?.lastError ?? "")
 						labelColor: Color.mError
-						wrapMode: Text.Wrap
 					}
 				}
 			}

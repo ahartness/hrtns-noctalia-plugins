@@ -18,7 +18,7 @@
   },
   "metadata": {
     "defaultSettings": {
-      "scriptPath": "$HOME/.config/niri/cfg/monitors/switch_layout.sh"
+      "scriptPath": "/home/hrtns/.config/niri/cfg/monitors/switch_layout.sh"
     }
   }
 }
