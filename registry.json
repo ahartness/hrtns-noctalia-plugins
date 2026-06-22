@@ -4,14 +4,14 @@
     {
       "id": "display-switcher",
       "name": "Display Switcher",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "minNoctaliaVersion": "3.6.0",
       "author": "hrtns",
       "license": "MIT",
       "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
       "description": "Display layout switcher with bar icon and panel actions",
       "tags": ["Bar", "Display", "Monitor", "Utility"],
-      "lastUpdated": "2026-06-22T08:00:00+00:00"
+      "lastUpdated": "2026-06-22T08:15:00+00:00"
     },
     {
       "id": "nordvpn",
