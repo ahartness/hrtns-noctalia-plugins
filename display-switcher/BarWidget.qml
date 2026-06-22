@@ -1,7 +1,9 @@
 import QtQuick
 import Quickshell
+import qs.Commons
 import qs.Modules.Bar.Extras
 import qs.Services.UI
+import qs.Widgets
 
 Item {
 	id: root
