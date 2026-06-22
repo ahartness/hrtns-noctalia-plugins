@@ -1,29 +1,40 @@
 {
-  "version": "1",
+  "version": 1,
   "plugins": [
     {
       "id": "display-switcher",
       "name": "Display Switcher",
       "version": "0.1.1",
-      "minNoctaliaVersion": "3.6.0",
+      "official": false,
       "author": "hrtns",
-      "license": "MIT",
+      "description": "Display switcher for multiple monitors",
       "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
-      "description": "Display layout switcher with bar icon and panel actions",
-      "tags": ["Bar", "Display", "Monitor", "Utility"],
-      "lastUpdated": "2026-06-22T08:15:00+00:00"
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Display",
+        "Monitor",
+        "Utility"
+      ],
+      "lastUpdated": "2026-06-22T10:02:20-04:00"
     },
     {
       "id": "nordvpn",
       "name": "NordVPN Status",
       "version": "0.1.0",
-      "minNoctaliaVersion": "3.6.0",
+      "official": false,
       "author": "hrtns",
-      "license": "MIT",
-      "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
       "description": "NordVPN connection status in the bar",
-      "tags": ["Bar", "Network", "Privacy"],
-      "lastUpdated": "2026-06-18T18:52:00+00:00"
+      "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Network",
+        "Privacy"
+      ],
+      "lastUpdated": "2026-06-18T14:50:29-04:00"
     }
   ]
 }
