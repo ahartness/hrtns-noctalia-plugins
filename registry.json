@@ -4,7 +4,7 @@
     {
       "id": "display-switcher",
       "name": "Display Switcher",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "official": false,
       "author": "hrtns",
       "description": "Display switcher for multiple monitors",
@@ -17,7 +17,7 @@
         "Monitor",
         "Utility"
       ],
-      "lastUpdated": "2026-06-22T12:24:24-04:00"
+      "lastUpdated": "2026-07-14T15:58:49-04:00"
     },
     {
       "id": "nordvpn",
