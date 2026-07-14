@@ -1,7 +1,7 @@
 {
   "id": "display-switcher",
   "name": "Display Switcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minNoctaliaVersion": "3.6.0",
   "author": "hrtns",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "metadata": {
     "defaultSettings": {
-      "scriptPath": "/home/hrtns/.config/niri/cfg/monitors/switch_layout.sh"
+      "scriptPath": "/home/hrtns/.config/hypr/monitors/switch_layout.sh"
     }
   }
 }
