@@ -9,7 +9,7 @@ Item {
 
 	property var pluginApi: null
 
-	readonly property string configuredScriptPath: pluginApi?.pluginSettings?.scriptPath ?? "$HOME/.config/niri/cfg/monitors/switch_layout.sh"
+	readonly property string configuredScriptPath: pluginApi?.pluginSettings?.scriptPath ?? "$HOME/.config/hypr/monitors/switch_layout.sh"
 
 	property bool isActing: false
 	property string lastError: ""
