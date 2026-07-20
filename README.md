@@ -1,141 +1,38 @@
-# Noctalia Plugins Repository
+# Noctalia Plugins
 
-This repository contains Noctalia plugins. It is structured to support multiple plugins over time.
+A collection of plugins for [Noctalia Shell](https://github.com/noctalia-dev/noctalia-shell), including launcher integrations, display controls, and network status tools.
 
-## Included Plugins
+## Plugins
 
-- `display-switcher/` - Display layout switcher with bar icon and panel actions
-- `nordvpn/` - NordVPN status and controls
+| Plugin | Description | Entry point | Requirements |
+| --- | --- | --- | --- |
+| [1Password Launcher](./1password-launcher/) | Search 1Password Login items from the Noctalia launcher, then copy usernames or passwords to the clipboard. | Launcher provider | 1Password CLI (`op`), `jq`, `wl-copy` |
+| [Display Switcher](./display-switcher/) | Switch between predefined monitor layouts from a Noctalia bar widget and panel. | Bar widget and panel | Niri and a layout-switching script |
+| [NordVPN Status](./nordvpn/) | View NordVPN connection status and server details, connect or disconnect, refresh status, and manage selected VPN settings. | Bar widget and panel | NordVPN CLI and an authenticated session |
 
-## Plugin: Display Switcher
-
-The Display Switcher plugin adds a display icon to the Noctalia bar and opens a panel with quick layout buttons.
-
-### Features
-
-- Icon-only bar widget
-- Panel buttons to switch display presets:
-  - Single
-  - Dual
-  - Ultrawide
-  - Steam Deck
-- Runs your Niri layout script with matching mode arguments
-- Bar icon changes by last selected layout:
-  - `device-desktop` for `single` and `ultrawide`
-  - `device-desktop-plus` for `dual`
-  - `device-gamepad` for `steamdeck`
-
-### Requirements
-
-- Noctalia `>= 3.6.0`
-- Niri installed
-- Script available at:
-  - `$HOME/.config/niri/cfg/monitors/switch_layout.sh`
-
-### Configuration
-
-Default plugin settings in `display-switcher/manifest.json`:
-
-- `scriptPath`: `$HOME/.config/niri/cfg/monitors/switch_layout.sh`
-
-## Plugin: NordVPN
-
-The NordVPN plugin adds a NordVPN status widget to the Noctalia bar and a control panel for common NordVPN actions.
-
-### Features
-
-- Shows VPN status directly in the bar (`connected`, `disconnected`, or `unknown` while loading)
-- Displays server location in the bar when connected
-- Opens a panel with connection details:
-  - server/location
-  - transfer stats
-  - uptime
-  - server load
-- Quick actions in the panel:
-  - connect
-  - disconnect
-  - refresh
-- Toggle NordVPN settings from the panel:
-  - Kill Switch
-  - Meshnet
-  - LAN Discovery
-
-### Requirements
-
-- Noctalia `>= 3.6.0`
-- NordVPN CLI installed and available in `PATH`
-- An authenticated NordVPN session (`nordvpn login`)
-
-### Installation
-
-Place this plugin folder under your Noctalia plugins directory and ensure Noctalia loads it.
-
-Expected files:
-
-- `manifest.json`
-- `Main.qml`
-- `BarWidget.qml`
-- `Panel.qml`
-- `i18n/en.json`
-
-Add the id to the `plugins.json`
-
-Finally, restart Noctalia or reload plugins.
-
-[Full Noctalia Widget Docs](https://docs.noctalia.dev/v4/development/guidelines/)
-
-### Configuration
-
-Default plugin settings are defined in `manifest.json`:
-
-- `displayMode`: `alwaysShow`
-- `connectedColor`: `primary`
-- `disconnectedColor`: `error`
-- `country`: `us` (update this to your country if outside of US)
-- `pollInterval`: `5000` (ms)
-
-### How It Works
-
-- Polls `nordvpn status` and `nordvpn settings` on an interval.
-- Updates bar text/icon based on state.
-- Runs actions through NordVPN CLI commands:
-  - `nordvpn connect`
-  - `nordvpn disconnect`
-  - `nordvpn set killswitch <on|off>`
-  - `nordvpn set meshnet <on|off>`
-  - `nordvpn set lan-discovery <on|off>`
-
-### Troubleshooting
-
-- If status stays unknown or disconnected, confirm the CLI works in terminal:
-  - `nordvpn status`
-  - `nordvpn settings`
-- If actions fail, check NordVPN authentication and permissions.
-- If the widget does not appear, verify the plugin manifest and entry points.
-
-### Project Metadata
-
-- ID: `nordvpn`
-- Version: `0.1.0`
-- License: `MIT`
+Use the linked plugin directory for detailed requirements, configuration, troubleshooting, and implementation notes.
 
 ## Installation
 
-Place plugin folders under your Noctalia plugins directory and ensure Noctalia loads them.
+Install a plugin using the Noctalia plugin workflow, or clone/copy its directory into your Noctalia plugins directory. Enable the plugin by its manifest ID, then restart Noctalia or reload plugins.
 
-Each plugin directory should contain:
+Each plugin has its own `manifest.json` with the required entry points and default settings. Refer to the [Noctalia plugin documentation](https://docs.noctalia.dev/development/plugins/overview/) for current installation and configuration instructions.
 
-- `manifest.json`
-- `Main.qml`
-- `BarWidget.qml`
-- `Panel.qml`
-- `i18n/en.json`
+## Requirements
 
-Add desired plugin IDs to your `plugins.json`, then restart Noctalia or reload plugins.
+All plugins require a compatible version of Noctalia Shell. Additional requirements are listed in the plugin catalog above and in each plugin’s README.
 
-[Full Noctalia Widget Docs](https://docs.noctalia.dev/v4/development/guidelines/)
+## Development
 
-## Planned Improvement
+Plugins are implemented as QML components and follow Noctalia’s plugin API and widget conventions. When contributing a plugin or change:
 
-- [x] For the NordVPN plugin, a planned enhancement is to add a connect option that offers a city dropdown list generated via `nordvpn cities <country>`.
-- [x] Fix the tooltip on the `BarWidget.qml`
+- Keep the plugin manifest, entry points, and translations in sync.
+- Route user-facing strings through the plugin translation system.
+- Use Noctalia widgets and shared style constants for consistent theming.
+- Test the plugin in Noctalia Shell, including relevant empty, loading, and error states.
+
+See the [Noctalia development guidelines](https://docs.noctalia.dev/development/guideline/) for the broader plugin conventions.
+
+## License
+
+Licensing is specified per plugin in its `manifest.json`.
