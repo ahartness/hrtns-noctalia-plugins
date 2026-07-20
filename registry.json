@@ -2,6 +2,17 @@
   "version": 1,
   "plugins": [
     {
+      "id": "1password-launcher",
+      "name": "1Password Launcher",
+      "version": "1.0.0",
+      "official": false,
+      "author": "hrtns",
+      "description": "Search 1Password login items from the Noctalia launcher",
+      "minNoctaliaVersion": "3.9.0",
+      "tags": [],
+      "lastUpdated": "2026-07-20T11:45:26-04:00"
+    },
+    {
       "id": "display-switcher",
       "name": "Display Switcher",
       "version": "1.0.2",
