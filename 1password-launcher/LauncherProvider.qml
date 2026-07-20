@@ -29,7 +29,7 @@ Item {
     }
 
     launcher.setSearchText(searchText);
-    launcher.toggle();
+    launcher.open();
   }
 
   IpcHandler {
