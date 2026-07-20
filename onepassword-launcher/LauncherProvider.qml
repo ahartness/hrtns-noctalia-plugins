@@ -14,40 +14,6 @@ Item {
   property var database: []
   property bool loaded: false
 
-  function openLauncher(query) {
-    if (!launcher) {
-      console.warn("1Password: Launcher is not available");
-      return;
-    }
-
-    var searchText = ">op";
-
-    if (query && query.trim() !== "") {
-      searchText += " " + query.trim();
-    } else {
-      searchText += " ";
-    }
-
-    launcher.setSearchText(searchText);
-    launcher.open();
-  }
-
-  IpcHandler {
-    target: "onepassword"
-
-    function open(): void {
-      root.openLauncher("");
-    }
-
-    function search(query: string): void {
-      root.openLauncher(query);
-    }
-
-    function refresh(): void {
-      root.refresh();
-    }
-  }
-
   function helperPath() {
     return pluginApi.pluginDir + "/op-launcher";
   }

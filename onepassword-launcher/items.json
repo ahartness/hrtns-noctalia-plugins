@@ -1,0 +1,2725 @@
+[
+  {
+    "id": "zezs4rwnxahxi3iejpanpn33pi",
+    "title": "Paramount+",
+    "username": "ehartness@bluerockstr.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "paramountplus.com"
+    ]
+  },
+  {
+    "id": "327jquwn7psir3oqga6vfhqk6i",
+    "title": "onlineaccess.ncsecu.org",
+    "username": "alyarber",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://onlineaccess.ncsecu.org/O/login.aspx"
+    ]
+  },
+  {
+    "id": "j2rmmi6twzr2q7voj2oj2oa5oy",
+    "title": "NAS Synology User",
+    "username": "hartness",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "http://192.168.50.8:5000",
+      "hart-nas.local",
+      "hart-nas.hartness.local"
+    ]
+  },
+  {
+    "id": "24w443mj7vrsa4ayiasuycw2sy",
+    "title": "www.amazon.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.amazon.com/ap/register",
+      "https://amazon.com"
+    ]
+  },
+  {
+    "id": "kcvu3wnhlv5eheidnmcc5hn6ye",
+    "title": "myturbotax.intuit.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://myturbotax.intuit.com/"
+    ]
+  },
+  {
+    "id": "2haz36si7f3tryk2nrx6axwwoy",
+    "title": "signin.costco.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://signin.costco.com/e0714dd4-784d-46d6-a278-3e29553483eb/B2C_1A_SSO_WCS_signup_signin_537/api/CombinedSigninAndSignup/unified"
+    ]
+  },
+  {
+    "id": "i7vrzeklhqokyjctpmrvfeb2ve",
+    "title": "Ring",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://oauth.ring.com/oauth/v2/signin",
+      "https://ring.com"
+    ]
+  },
+  {
+    "id": "mwynkxu35zcjmhp7r3mhc67lr4",
+    "title": "www.duke-energy.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.duke-energy.com/home"
+    ]
+  },
+  {
+    "id": "vwwtcp5z4b4byjc67vxzydgnvu",
+    "title": "Nord Account",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://nordaccount.com"
+    ]
+  },
+  {
+    "id": "xme3nxo5xiun4ql4ic5c26sngq",
+    "title": "Disney/Hulu/ESPN",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://cdn.registerdisney.go.com"
+    ]
+  },
+  {
+    "id": "ta45hw2yn43n3ic6bwtff2rmpm",
+    "title": "www.instagram.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.instagram.com/"
+    ]
+  },
+  {
+    "id": "vccvp75g4uft32mrjjrtc2pihy",
+    "title": "idmsa.apple.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://idmsa.apple.com/appleauth/auth/signin"
+    ]
+  },
+  {
+    "id": "5usoqmhloeexd6oacpnbyqpepy",
+    "title": "Mybirdbuddy",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://mybirdbuddy.com/my-account/lost-password/?show-reset-form=true&action"
+    ]
+  },
+  {
+    "id": "td4zbcpn4fz57hsvkvxihutkpm",
+    "title": "accounts.google.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://accounts.google.com/signin/v2/sl/pwd"
+    ]
+  },
+  {
+    "id": "ajs356iqzcs7grwhaemjuu72fu",
+    "title": "digital.fidelity.com",
+    "username": "alyarber1",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://digital.fidelity.com/prgw/digital/login/full-page"
+    ]
+  },
+  {
+    "id": "t3x6evdd6uoyu4ierxpxyrzhqu",
+    "title": "verified.capitalone.com",
+    "username": "alyarber",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://verified.capitalone.com/sign-in/"
+    ]
+  },
+  {
+    "id": "7a32hbejvvb2exu5cue2uf2jsi",
+    "title": "Quicken",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://signin.quicken.com/signup?&response_type=code&client_id=acme_ios&dm=1&session_state=MDk4Y2RhNWUtNDkyZC00ODZhLWJkM2QtMDA4ZjQzZjEzMGJj&redirect_uri=https://signin.quicken.com/success"
+    ]
+  },
+  {
+    "id": "6wtaryq2uxdc5quazhxoax2uuu",
+    "title": "Covetrus (GreatPetCare)",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://auth.covetrus.com/u/login?state=hKFo2SBabXMzcnlPVHBxaTJIQ2VtbVVoNFNaVU1MU0VaUDlXM6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEpycXJnejA2SVNMd0xFRExvOVpJVE9zV1NETER5SHQ3o2NpZNkgTTFiQTdXZEJaVXl0Wmh0NFd2V0hsYmNLTVhvNTJLcGI"
+    ]
+  },
+  {
+    "id": "a6rwqw3y52wnt2okt364rbnqla",
+    "title": "www.lulus.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.lulus.com/categories/13_946/club-dresses.html"
+    ]
+  },
+  {
+    "id": "bsulsenldnxmjgutubcmecmzyy",
+    "title": "Hilton",
+    "username": "1338116062",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.hilton.com/en/"
+    ]
+  },
+  {
+    "id": "6x3vdabsrosrybriss5ctrxprm",
+    "title": "Plex",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://app.plex.tv"
+    ]
+  },
+  {
+    "id": "f3scevn2uhjtfalyu3dgjoh4ue",
+    "title": "nb.fidelity.com",
+    "username": "alyarber1",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://nb.fidelity.com/public/nb/401k/home"
+    ]
+  },
+  {
+    "id": "6jv76bc2ljwncyyvu6ppmpm4vi",
+    "title": "www.sofi.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.sofi.com/signup/"
+    ]
+  },
+  {
+    "id": "rp2ktswnqupkeikjg567ypuagu",
+    "title": "www.novantmychart.org",
+    "username": "alyarber",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.novantmychart.org/"
+    ]
+  },
+  {
+    "id": "otseutlkjtdmvu6peg4g5ychom",
+    "title": "Copilot",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://copilot-production-22904.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=dMPhLLuBigwZMPsB9b5-hhEugZglbV7UMoqNK-PUwXcAAAGU9ynwPg&apiKey=AIzaSyAMgjkeOSkHj4J4rlswOkD16N3WQOoNPpk&lang=en",
+      "copilot.money"
+    ]
+  },
+  {
+    "id": "ccmzlwxhuppb6xinswny2q3o3y",
+    "title": "HoA Portal (Chesnut Oaks)",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://bmc.cincwebaxis.com/account/createnewpassword/?id=383005831518535"
+    ]
+  },
+  {
+    "id": "pm5kjutjm4iqpefj4bll3sd5hi",
+    "title": "OpenAI",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://auth.openai.com"
+    ]
+  },
+  {
+    "id": "smplsplwrfthsxu2cwhyptxfrq",
+    "title": "Hulu",
+    "username": "bhartness@bluerockstr.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://www.hulu.com"
+    ]
+  },
+  {
+    "id": "6pnf6zvfdll22uo5mmzj423imq",
+    "title": "accounts.spotify.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://accounts.spotify.com/en/login"
+    ]
+  },
+  {
+    "id": "cbq3wb62klr7ym2x3l4ctesl3i",
+    "title": "Auth.max",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://auth.max.com",
+      "https://play.hbomax.com"
+    ]
+  },
+  {
+    "id": "cs2wytdcommxsdkzhniurjenfa",
+    "title": "secure1.store.apple.com",
+    "username": "alyarber@gmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://secure1.store.apple.com/shop/sign_in"
+    ]
+  },
+  {
+    "id": "flbecrvnkb2fzpbj4olvqxphfi",
+    "title": "verified.capitalone.com",
+    "username": "alyarber",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "https://verified.capitalone.com/auth/signin"
+    ]
+  },
+  {
+    "id": "spj3glwaq4cjlh4mubxeythsnm",
+    "title": "HBO Max",
+    "username": "Linagali@hotmail.com",
+    "vaultId": "k76y3vorwzjjn6hdzzlpglhuai",
+    "vaultName": "Shared",
+    "urls": [
+      "hbomax.com"
+    ]
+  },
+  {
+    "id": "273ylu6yb4sliopbuv3dlilmtm",
+    "title": "Calendar Login - App Apple",
+    "username": "—",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "2jqfqewm2p3xsce6dsda324hui",
+    "title": "Paypal",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.paypal.com"
+    ]
+  },
+  {
+    "id": "2axcppcdr3sgkiwcut776z2txa",
+    "title": "Instagram",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.instagram.com"
+    ]
+  },
+  {
+    "id": "eqolmghbfz5awfhki4x4hfuixq",
+    "title": "JetBrains",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.jetbrains.com/login"
+    ]
+  },
+  {
+    "id": "bclvzffdtqgwpnqhkk6sed4cce",
+    "title": "Proton",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.proton.me/mail"
+    ]
+  },
+  {
+    "id": "7o2ndxdzkvqwcuefpti4cmlane",
+    "title": "Fedsso-ra.bankofamerica",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://fedsso-ra.bankofamerica.com"
+    ]
+  },
+  {
+    "id": "bfyiszzssxxilmn7fweqskjfse",
+    "title": "Auth.ticketmaster",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://auth.ticketmaster.com"
+    ]
+  },
+  {
+    "id": "7ercxo6mkvb7da2oifz3lo6p6u",
+    "title": "Google (Main)",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "accounts.google.com",
+      "myaccounts.google.com"
+    ]
+  },
+  {
+    "id": "5loykv4yzwwusdbzrra6epf2bm",
+    "title": "Riot Games",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "7er37klvacxsxo2e43u3ima2yi",
+    "title": "Creditkarma",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.creditkarma.com/recovery"
+    ]
+  },
+  {
+    "id": "6xef4dywk2kvi6enaccnzlz5t4",
+    "title": "SoFi Banking",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.sofi.com/u/login?state=hKFo2SBhM2lOVmpkb0E4Y3VvXzJYM1ZvWVZDN1I2d3BkN2J2ZKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIF82Sm9KYW0yNV9LeExwbUZXamxfczlBUjRqcGZ2MFE2o2NpZNkgNkxuc0xDc2ZGRUVMbDlTQzBDaWNPdkdlb2JvZXFab2I"
+    ]
+  },
+  {
+    "id": "zykthxprqpykgfavxnxzbpiybu",
+    "title": "Target",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.target.com"
+    ]
+  },
+  {
+    "id": "7s7be3sajod3ybhtkg2isuq4ry",
+    "title": "Medium",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://medium.com/@adaml.poniatowski/exploring-the-top-neovim-distributions-lazyvim-lunarvim-astrovim-and-nvchad-which-one-reigns-3adcdbfa478d"
+    ]
+  },
+  {
+    "id": "7jcufmkjmncqsoepv6psln4moy",
+    "title": "DHgate",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://shoppingcart.dhgate.com"
+    ]
+  },
+  {
+    "id": "73ifzc3hhlb7n2gso7tw6gir7i",
+    "title": "Menswearhouse",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://tuxedo.menswearhouse.com"
+    ]
+  },
+  {
+    "id": "bi43wzgnyf4hq4ta4hvj4dw34i",
+    "title": "USPS",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://reg.usps.com"
+    ]
+  },
+  {
+    "id": "ewttw73k5imamqqpxbytzu4oeu",
+    "title": "Schwab",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://sws-gateway.schwab.com/ui/host/#/create-credential"
+    ]
+  },
+  {
+    "id": "5wvettzibv25pc5w7jkf6mypca",
+    "title": "SANDALS",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://obe.sandals.com"
+    ]
+  },
+  {
+    "id": "7jwgq4ea45yccbbvubpwrlvsx4",
+    "title": "Zillow",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.zillow.com/"
+    ]
+  },
+  {
+    "id": "2jr5zfixta6vz3c2zy5n7kts5i",
+    "title": "Nianticlabs",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://wayfarer.nianticlabs.com/"
+    ]
+  },
+  {
+    "id": "7alb3ivsgi7zstblpiaz4wgmgy",
+    "title": "Asusrouter",
+    "username": "admin",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "http://www.asusrouter.com",
+      "router.asus.com"
+    ]
+  },
+  {
+    "id": "7tn5r3wa7q5jbtidspeghcjiyq",
+    "title": "Thumbtack",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.thumbtack.com/profile/settings/"
+    ]
+  },
+  {
+    "id": "bj2bqkqfrvhixopum7ilq7xhvu",
+    "title": "Udemy",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.udemy.com"
+    ]
+  },
+  {
+    "id": "eydjja6attigdukhjbalyv46gy",
+    "title": "Synology",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.synology.com/en-us/register/quick/6ee9492a875e4e98a17e9167b2a3ecc8?lang=en-us"
+    ]
+  },
+  {
+    "id": "67htzr7zues3isdnh3d3ifo6qe",
+    "title": "Google",
+    "username": "andrew-test@hartness.us",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://workspace.google.com"
+    ]
+  },
+  {
+    "id": "2m5uapstiloaej7p66ojaqegju",
+    "title": "Work Cell Phone BofA",
+    "username": "andrew.hartness@bofa.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "cxrfflpkwpwxdjvbvrdkmw65aa",
+    "title": "Closesimple",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://auth.portal.closesimple.com"
+    ]
+  },
+  {
+    "id": "6suoseqorm5ome44pyunm6iecy",
+    "title": "Ezfacility",
+    "username": "hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://pinevilleice.ezfacility.com"
+    ]
+  },
+  {
+    "id": "q2degp5z5pqltipcy3tknein4a",
+    "title": "Battle.Net",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://us.battle.net"
+    ]
+  },
+  {
+    "id": "7ydt6mwryhahgsl43twujdaxke",
+    "title": "Chrome://firefoxaccount",
+    "username": "a1780f71c75c4e6da16f927be7107496",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "chrome://FirefoxAccounts"
+    ]
+  },
+  {
+    "id": "cyzbcifohuyvv3oqwvjxmg4cku",
+    "title": "Ballysports",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.ballysports.com/activate?tv=true&code=MBSNLKXF"
+    ]
+  },
+  {
+    "id": "6f6fcy5sen577zrdhtb6nw2iru",
+    "title": "Jagex",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.jagex.com"
+    ]
+  },
+  {
+    "id": "6u3aa23ikjcoitaxqld7kyiptu",
+    "title": "Statefarm",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "statefarm.com"
+    ]
+  },
+  {
+    "id": "q7mkbakxbjysxi26k7nh7elt6q",
+    "title": "Mobalytics",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.mobalytics.gg"
+    ]
+  },
+  {
+    "id": "bjac7qokobumwrqii4p54ylq6u",
+    "title": "BPme Rewards Visa",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "auth.securebanklogin.com",
+      "www.securebanklogin.com",
+      "https://cdn.plaid.com/link/v2/stable/link.html?countryCodes=US&env=production&isLinkInitialize=true&key=661eb25dab0bdfa59b89ff652524d4&token=link-production-7b44a830-5a4b-4467-a63e-86a38f11743a&origin=https%3A%2F%2Fwww.sofi.com&product=transactions&uniqueId=2&version=2.0.1721",
+      "https://bp.syf.com/login/"
+    ]
+  },
+  {
+    "id": "2ojn5ixx5n4jkud6eozawxyb7e",
+    "title": "Marriott",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "marriott.com"
+    ]
+  },
+  {
+    "id": "aercubp5fjqrs3qfprfdcyzqqy",
+    "title": "Unity",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.unity.com"
+    ]
+  },
+  {
+    "id": "d4wf76ua773xxfimcdmisnh5ue",
+    "title": "Codeberg",
+    "username": "hrtns",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://codeberg.org"
+    ]
+  },
+  {
+    "id": "pww5odfnobyfm5lxoh75he4zmi",
+    "title": "Yahoo",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.yahoo.com/account/change-password?src=iosphnx&appsrc=yfantasy&client_id=JVCNsukEjXbkRRQT&lang=en-US&intl=us&theme=dark&redirect_uri=com.yahoo.ffootball2009%3A%2F%2Fphoenix%2Fcallback_auth&sdkDeviceId=NDY4OGI0MGIzYTdkNjc1MzhkYTA5NmNmNjUyMGE2NDZhMTMwMzIxNzNk&appid=com.yahoo.ffootball2009&appsrcv=10.51.8&srcv=6.42.0&tas=3&prompt=login&done=https%3A%2F%2Fapi.login.yahoo.com%2Foauth2%2Fauthorize%3F.scrumb%3D.hE1RPHKZy0%26appid%3Dcom.yahoo.ffootball2009%26appsrcv%3D10.51.8%26client_assertion%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE2OTY2Mzg1NjQsImp0aSI6IjM2MTg4QTdGLTVFMkQtNEM3Mi1BMzg2LUMxNDMzNjg1RjM2QiIsInN1YiI6Ikh4dGxqTmpBTHRRWlB1akwiLCJuYmYiOjE2OTY2Mzg1NjQsImFwcF9jbGllbnRfaWQiOiJKVkNOc3VrRWpYYmtSUlFUIiwiZXhwIjoxNjk2NjM4ODY0LCJhdWQiOiJodHRwczpcL1wvYXBpLmxvZ2luLnlhaG9vLmNvbVwvb2F1dGgyXC9nZXRfdG9rZW4iLCJpc3MiOiJIeHRsak5qQUx0UVpQdWpMIn0.0vLLqynNhdcQwGZLo5ubiejQ40hcJhu4HRGf6MbH1WpPks2Sp9aqwgxF4PlH0c3d8rYxSChKdQFPgJWimvhs2A%26client_assertion_type%3Durn%253Aietf%253Aparams%253Aoauth%253Aclient-assertion-type%253Ajwt-bearer%26client_id%3DHxtljNjALtQZPujL%26code_challenge%3DCPXKMkR5I8Dx4mkySktEDuEqOD65ESJ1U6rjnf3DzVQ%26code_challenge_method%3DS256%26intl%3Dus%26language%3Den-US%26nonce%3DDsvaJP8t0MpZed6l42gqb_DjqomMZG-Z0rYiOUNNJss%26os%3D17.0.2%26redirect_uri%3Dcom.yahoo.ffootball2009%253A%252F%252Fphoenix%252Fcallback_auth%26requested_token_type%3Durn%253Aietf%253Aparams%253Aoauth%253Atoken-type%253Aoath-tokens%26response_type%3Dcode%26scope%3Dfspt-m%2520sdct-r%2520fspt-w%2520sdps-r%2520openid%2520device_sso%26sdkDeviceId%3DNDY4OGI0MGIzYTdkNjc1MzhkYTA5NmNmNjUyMGE2NDZhMTMwMzIxNzNk%26src%3Diosphnx%26srcv%3D6.42.0%26state%3DsTx4rj9pvS63vt4kgBzaQTczvbjf8D1ASxihSSMDFPc%26tas%3D3%26theme%3Ddark&acrumb=FPsYm9Xj&display=narrow&authMechanism=primary&context=ar&scrumb=.hE1RPHKZy0"
+    ]
+  },
+  {
+    "id": "vpgxfmopwi4bqise3ou62spane",
+    "title": "LeetCode",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://leetcode.com"
+    ]
+  },
+  {
+    "id": "6bknr2stzlvx2qea34s5qnshnu",
+    "title": "Masters",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://tickets.masters.com/"
+    ]
+  },
+  {
+    "id": "brdegzao2r4x35hdel5b27ay3u",
+    "title": "Realpage",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://property.onesite.realpage.com/welcomehome/?siteId=3649517#url=%23login"
+    ]
+  },
+  {
+    "id": "vo4ahxqwylomp6ha7ni3evohze",
+    "title": "Github",
+    "username": "ahartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://github.com"
+    ]
+  },
+  {
+    "id": "2qs4mb7s4btmcujpiifmgkaaqq",
+    "title": "YNAB",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://app.ynab.com"
+    ]
+  },
+  {
+    "id": "f7ajzfxrb5567f675yjqsllzym",
+    "title": "Zenva",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://academy.zenva.com/wp-login.php"
+    ]
+  },
+  {
+    "id": "xcj4qbam5ryruuzylbt7wn5u7i",
+    "title": "Perplexity AI",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.perplexity.ai/onboarding?redirect=https%3A%2F%2Fwww.perplexity.ai%2F%3Flogin-source%3DfloatingSignup%26login-new%3Dtrue"
+    ]
+  },
+  {
+    "id": "dymzpaag2jxi2pczpprtvo27bu",
+    "title": "ceasars sportsbook",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://williamhill.com/"
+    ]
+  },
+  {
+    "id": "qc26yitgxkbagmzokz6n3zpx7y",
+    "title": "Intuit (TurboTax & Mint)",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.intuit.com"
+    ]
+  },
+  {
+    "id": "cfxlbnchyl5qrqfvajl7kzhz5y",
+    "title": "Todoist",
+    "username": "andrewhartness1@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://app.todoist.com/auth/login"
+    ]
+  },
+  {
+    "id": "fbtmawehydzua4zemu4blev4ci",
+    "title": "nfl.com",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://nfl.com"
+    ]
+  },
+  {
+    "id": "cjdp4jvl7b2othlydzs6gmoyfm",
+    "title": "YNAB",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://app.ynab.com/settings"
+    ]
+  },
+  {
+    "id": "2qu4f62cpssa5zq7cdyr2jcv5y",
+    "title": "Steam",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "steamcommunity.com"
+    ]
+  },
+  {
+    "id": "qpnnj7w2h5xtyim7qzpdzxgbwa",
+    "title": "Call of Duty",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "profile.callofduty.com"
+    ]
+  },
+  {
+    "id": "x3ijgjc54r7navbmmu6dryjpna",
+    "title": "Sportradar",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://console.sportradar.com"
+    ]
+  },
+  {
+    "id": "ajuqvggpuqa4eubc4so245tiry",
+    "title": "Google (extra)",
+    "username": "hartness.andrew.rs@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.google.com/v3/signin/challenge/pwd?TL=APps6eYdWWo4YLH76DaS_91Bbl6JbWtkAuKlHYVI_1Bfn5hjIt68rvtUWu-BKqJn&checkConnection=youtube%3A119&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F%2F&ddm=1&dsh=S1160573827%3A1728440992714848&flowEntry=AddSession&flowName=GlifWebSignIn&pstMsg=1"
+    ]
+  },
+  {
+    "id": "brfgqsx4ofwqv2lxfg4n2jyg4u",
+    "title": "Etsy",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.etsy.com/search?q=college+football&ref=pagination&page=4&favorite_listing_id=4364611023&ref_login_action=favorite-item"
+    ]
+  },
+  {
+    "id": "du7o6yzddnmd2rsohqf27nlbs4",
+    "title": "Sleeper",
+    "username": "ayarber",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://sleeper.com"
+    ]
+  },
+  {
+    "id": "cokrk4rux76dvlbiqhfnbcl574",
+    "title": "auth.citi.com",
+    "username": "**********ness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://auth.citi.com/ASag/oauth2/login"
+    ]
+  },
+  {
+    "id": "ejxtesj3njoe3zafuw2vn2zlxy",
+    "title": "FireFox",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.firefox.com"
+    ]
+  },
+  {
+    "id": "qqiqwu6vms5yrphruxmhkzz6ka",
+    "title": "Discord (Bets)",
+    "username": "hartness.andrew.rs@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "ym2ee2kmzrye6bf75yb56qekxi",
+    "title": "BetsAPI",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://betsapi.com/login"
+    ]
+  },
+  {
+    "id": "cwafesmwu3jl6x7zfviz337bsy",
+    "title": "Bankofamerica",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.bankofamerica.com"
+    ]
+  },
+  {
+    "id": "auz23tydstknl4y35hqpfb4svi",
+    "title": "MyFitnessPal",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "bw7pqujp23pgofzvk46ftzv7ee",
+    "title": "Sony",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://my.account.sony.com"
+    ]
+  },
+  {
+    "id": "vphzg57s75oudglf2awterjuu4",
+    "title": "Secure.runescape",
+    "username": "hartness.andrew.rs@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://secure.runescape.com"
+    ]
+  },
+  {
+    "id": "qs7pxzm2rmbr23b25i3vfvwqme",
+    "title": "Duke-energy",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://p-auth.duke-energy.com",
+      "duke-energy.app",
+      "https://login.duke-energy.com"
+    ]
+  },
+  {
+    "id": "eog2dsk4xdxhwb3bhfly3kwwai",
+    "title": "EBay",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.ebay.com"
+    ]
+  },
+  {
+    "id": "cx53evay44ecqdfuftk77xdpaa",
+    "title": "Secureloandocs",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://51863775.secureloandocs.com/en/apply/form/19405#0"
+    ]
+  },
+  {
+    "id": "d6aizp7xmivwb3vvrnfkzj2w44",
+    "title": "Us.zyn",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://us.zyn.com"
+    ]
+  },
+  {
+    "id": "2vii22otvb7tf5437i2vnyl4zu",
+    "title": "Draftkings",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://myaccount.draftkings.com/signup?product=sportsbook&referrer=lildaedae69&wpcid=928318922&wpsrc=Sportsbook%20Standard%20Refer-A-Friend&waffn=lildaedae69"
+    ]
+  },
+  {
+    "id": "avo6v33jeqqnxbsg2xbxcsdmk4",
+    "title": "Action Network",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.actionnetwork.com/oauth?google=true"
+    ]
+  },
+  {
+    "id": "bwdojkgphkhsdrb6ud6upgrzpq",
+    "title": "Fan Duel Network",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://rsn-prd.dsg.auth0app.com/lo/reset?ticket=B53tSdxsEsUyAaT27lxKJeoui2YIoeVA#",
+      "fanduelsportsnetwork.com"
+    ]
+  },
+  {
+    "id": "xgfrotn74pv3mdxcz5v5wg3764",
+    "title": "Hytale",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.hytale.com"
+    ]
+  },
+  {
+    "id": "aqtmxtp2efbhftnfjqcweaf5tu",
+    "title": "props.cash",
+    "username": "hartness.andrew.rs@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://props-helper.us.auth0.com/login?state=hKFo2SBGaDhGRXVoLVVBUy1jS0F3ZDRTc0RPYThLWmQ5dEM4QqFupWxvZ2luo3RpZNkgMWotT2V3UWJwajVzQ3RwZG82azV1ZmJybHVxZ0FUMUmjY2lk2SBrSTc2UFlrOUEzZzd5VXR5aFkzQWhLbXI5b3ZpSEF6dw&client=kI76PYk9A3g7yUtyhY3AhKmr9oviHAzw&protocol=oauth2&prompt=login&code_challenge=b4wPMA1U8a7ziK1ROXTolkfX23nX-h9xOXZtuPp5-cg&code_challenge_method=S256&clientId=kI76PYk9A3g7yUtyhY3AhKmr9oviHAzw&response_type=code&redirect_uri=cash.props.app%3A%2F%2Fprops-helper.us.auth0.com%2Fios%2Fcash.props.app%2Fcallback&scope=openid%20offline_access%20profile%20email&audience=https%3A%2F%2Fprops-dot-cash%2Fapi&device=652820B0-E291-44A6-B001-4B9FA7FD88E5&auth0Client=eyJuYW1lIjoicmVhY3QtbmF0aXZlLWF1dGgwIiwidmVyc2lvbiI6IjIuMTcuMiJ9"
+    ]
+  },
+  {
+    "id": "cf6myszyfq552qfsxwjqlzy27e",
+    "title": "FACEIT",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.faceit.com",
+      "https://accounts.faceit.com"
+    ]
+  },
+  {
+    "id": "ayfw4k4bghl4rb6253qjmoclki",
+    "title": "NVIDIA",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.nvgs.nvidia.com"
+    ]
+  },
+  {
+    "id": "cfkfdxg5a5ydofchzoedowquxq",
+    "title": "Ticktick",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "ticktick.com"
+    ]
+  },
+  {
+    "id": "dyyhzcrswjvwutugk3jpvjtpzu",
+    "title": "Outlook Live",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://signup.live.com"
+    ]
+  },
+  {
+    "id": "db7fbi5pdiz6okz54qifmhbwjm",
+    "title": "Obsidian",
+    "username": "andrewhartness@proton.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://obsidian.md"
+    ]
+  },
+  {
+    "id": "xmzoogpywhivcp3yapf2k3v2we",
+    "title": "Fashionphile",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.fashionphile.com/login?signup"
+    ]
+  },
+  {
+    "id": "ak4gbc4gbxdmcxlgv5yk4ftyb4",
+    "title": "Humblebundle",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.humblebundle.com"
+    ]
+  },
+  {
+    "id": "aysmwf3wcpt2lve3uienqsdc7y",
+    "title": "Novantmychart",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.novantmychart.org/MyChart/Authentication/PasswordReset",
+      "mchrt.app"
+    ]
+  },
+  {
+    "id": "vsswbogagukiqx6625fmkqt7c4",
+    "title": "TDAmeritrade",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://auth.tdameritrade.com",
+      "https://start.tdameritrade.com",
+      "https://invest.ameritrade.com"
+    ]
+  },
+  {
+    "id": "37t3heobmu6whsm67ixvjepprm",
+    "title": "Members.iracing",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://members.iracing.com"
+    ]
+  },
+  {
+    "id": "xzw2fukxtv7mxeawq6cpeky2cu",
+    "title": "Rosegateservicing (Mortgage)",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.rosegateservicing.com"
+    ]
+  },
+  {
+    "id": "amilecexq6vzdnv26vplrs6deq",
+    "title": "Twitch",
+    "username": "Hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.twitch.tv"
+    ]
+  },
+  {
+    "id": "ea6nekcjv7ew5q6vzmssnvgn6y",
+    "title": "Cloudflare",
+    "username": "andrewhartness1@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://dash.cloudflare.com"
+    ]
+  },
+  {
+    "id": "e2x4grkevnjrxrptwcwevg3rdm",
+    "title": "synologynas",
+    "username": "hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "http://synologynas:5000"
+    ]
+  },
+  {
+    "id": "xpwl6th7hljhntcajdnroxabua",
+    "title": "Sandals Resort",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "dfreytbnclmtlsohdodb6zobjy",
+    "title": "Login",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "newlynamed.com"
+    ]
+  },
+  {
+    "id": "zkry3bljt7vsmtw5pordrwxupm",
+    "title": "Lutris",
+    "username": "hrtns",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://lutris.net"
+    ]
+  },
+  {
+    "id": "anxugiovhk7ohdt64mc4qndn6u",
+    "title": "Refrag",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://play.refrag.gg"
+    ]
+  },
+  {
+    "id": "y4lajakvyvbhz2ozncaecnctda",
+    "title": "Jimmyjohns",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://online.jimmyjohns.com/resetpassword?id=77a247a4-5edd-4dc4-a904-5e617e6a0980"
+    ]
+  },
+  {
+    "id": "rmmzs4jwybx5nwym35jly7pttq",
+    "title": "Secure.verizon",
+    "username": "ahartne5",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://secure.verizon.com"
+    ]
+  },
+  {
+    "id": "3d53mbhw42liwfwktqi2pmaplu",
+    "title": "Supabase",
+    "username": "ahartness's Project",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://supabase.com"
+    ]
+  },
+  {
+    "id": "vtnebbqm7z7odn2st2vtixdpfm",
+    "title": "login.docker.com",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.docker.com"
+    ]
+  },
+  {
+    "id": "xsouzxxr7szdp6k2uzki5xgtcy",
+    "title": "TigerNet",
+    "username": "bhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.tigernet.com/Clemson-Football-Tickets/LSU-2513/forsale"
+    ]
+  },
+  {
+    "id": "zjira4jwquw2zuokdbqsc4llpe",
+    "title": "Mlb",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.mlb.com"
+    ]
+  },
+  {
+    "id": "wgaw3hukpmpax3ggpy7h6lhavy",
+    "title": "Piedmont Natural Gas",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://cass.piedmontng.com/"
+    ]
+  },
+  {
+    "id": "qtkqdcb5nmeiy6w63ttya2hotq",
+    "title": "T3 Chat",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://t3.chat/auth/complete"
+    ]
+  },
+  {
+    "id": "y6hnhke6lne4o7hwrzp6ucbp4m",
+    "title": "synologynas-connect",
+    "username": "hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "http://synologynas:5000"
+    ]
+  },
+  {
+    "id": "k2jl5d2vfqlrjcyuqokkdbrqum",
+    "title": "Login.gog",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.gog.com"
+    ]
+  },
+  {
+    "id": "yw2jdzwx2fmhlmkazdikldcd5a",
+    "title": "Ceasars NC",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://sportsbook.caesars.com/",
+      "https://williamhill.com/"
+    ]
+  },
+  {
+    "id": "hq27xw3fs7bzuvc2tzyuljlg3e",
+    "title": "Firstcitizens",
+    "username": "ahartne5",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.firstcitizens.com"
+    ]
+  },
+  {
+    "id": "wjxmo5vrc57xfiypmuqoyanqa4",
+    "title": "Aviator Mastercard",
+    "username": "ahartne5",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "www.aviatormastercard.com",
+      "https://www.barclaycardus.com/servicing/authenticate?redirectreasoncode=slwrua001&showSecureLoginPage=",
+      "https://secure.plaid.com/link/v2/stable/link.html?env=production&isMobile=true&isWebview=true&is_iOS_SDK_in_process_webview=true&linkOpenId=50007d67-bd48-498a-8c71-f86a40b19296&linkPersistentId=514d6ad5-b13a-4af2-a3ec-fd8977ef911b&linkSdkVersion=4.2.0&token=link-production-9346cef5-d910-4bc5-ba34-e5b8e3c19e71&webviewFallbackId=5135b212-053e-4102-9fce-bc3d914c6f80"
+    ]
+  },
+  {
+    "id": "hvbadrzmtwghb2mpxkyvhppbue",
+    "title": "Magic The Gathering Arena",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "mtgarena.com",
+      "https://myaccounts.wizards.com/login"
+    ]
+  },
+  {
+    "id": "qvusqebkhxul3ya5dlx4snszh4",
+    "title": "Foreupsoftware",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://foreupsoftware.com/index.php/booking/22678/11602#/book_time"
+    ]
+  },
+  {
+    "id": "3gzvzup3fjtnwqqjytz5ax4id4",
+    "title": "Onehome",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://portal.onehome.com/en-US/register?searchId=52be0ee2-f938-36cf-9992-a5980ea859a3&token=eyJPU04iOiJDQU5PUFkiLCJ0eXBlIjoiMSIsImNvbnRhY3RpZCI6NDQ3MTg2OCwic2V0aWQiOiIyODE5MTQ5Iiwic2V0a2V5IjoiNDQ5IiwiZW1haWwiOiJoYXJ0bmVzcy5hbmRyZXdAZ21haWwuY29tIiwicmVzb3VyY2VpZCI6MCwiYWdlbnRpZCI6Nzg5NTksImlzZGVsdGEiOmZhbHNlLCJWaWV3TW9kZSI6IjEifQ%3D%3D",
+      "https://clientsso.corelogic.com/idp/startSSO.ping?PartnerSpId=AOTFSp&UUID=fc6c2cee-7def-34ee-8560-51f97bf491b9&TARGET=https%3A%2F%2Fservices.onehome.com%2Fapi%2Fauthentication%2Fredirect%2FopenToken&language=en-US"
+    ]
+  },
+  {
+    "id": "ydbm4kymw3v7q5rt7z4ycj4qw4",
+    "title": "Fedsso-ra.bankofamerica",
+    "username": "zkjqzdp",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://fedsso-ra.bankofamerica.com"
+    ]
+  },
+  {
+    "id": "vtrdlviwgda2naiaehlmfftwz4",
+    "title": "Securecafe",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://yesenergymanagement.securecafe.com/residentservices/apartmentsforrent/userregistration.aspx",
+      "securercqatolnet.com"
+    ]
+  },
+  {
+    "id": "dkorstbt6xy6omyzhbdpno2qpm",
+    "title": "Spectrum",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://id.spectrum.net/login?client_id=msa&nonce=MfbnvY8lTETnrAc6lAw-bxAuLKEAqOgq5mLKNhnSABw&state=9qWLcIdiTnl6_jy670pm_MKsoT3COeoSPh3iW4OQrcw&response_type=code&code_challenge=Uj5ShYQG0vlN-pRV8ndBAjdQFZvowv5pjftQW_-xnF0&code_challenge_method=S256&dark=true&remember=false&exVisitID=202312291516P-bf2cb202-edcf-44fb-8d81-f6e938727b61"
+    ]
+  },
+  {
+    "id": "j7ymplsfoiccvf6j434mdzd2pm",
+    "title": "Twitter",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://twitter.com/account/reset_password"
+    ]
+  },
+  {
+    "id": "jgmfv7rjmsqu4z2yc7ufbqsbdy",
+    "title": "Unity",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.unity.com"
+    ]
+  },
+  {
+    "id": "fdlagne6ey3nfqzxdxbdyr3doy",
+    "title": "Ea",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://signin.ea.com/p/juno/login?execution=e1792669709s1&initref=https%3A%2F%2Fsignin.ea.com%2Fp%2Fjuno%2Ferror"
+    ]
+  },
+  {
+    "id": "wkw4y77r5fwcpsemvsngh2qdoq",
+    "title": "BetMGM",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.nc.betmgm.com"
+    ]
+  },
+  {
+    "id": "3l5de6w54ser42u66aprtysgtu",
+    "title": "Customerconnect.vmware",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://customerconnect.vmware.com"
+    ]
+  },
+  {
+    "id": "r32j47hpun5qoaqxso5aal3tzy",
+    "title": "Gishan",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://pokemongo.gishan.net/friends/profile/register"
+    ]
+  },
+  {
+    "id": "jv4hwsudl7ip7k5ayjmngyr67e",
+    "title": "Aetnavision",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "aetnavision.com"
+    ]
+  },
+  {
+    "id": "vx7dcgvn6rqwo3rvdjf5fks4d4",
+    "title": "Plex",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.plex.tv/sign-in/?forward=https://www.plex.tv/"
+    ]
+  },
+  {
+    "id": "rbiyf2g3y6fmhdy6aeskzcs5pa",
+    "title": "Sunshine",
+    "username": "hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://localhost:47990"
+    ]
+  },
+  {
+    "id": "hxaw5gwbjweozt76tibm3rj5qi",
+    "title": "BSG - Escape From Tarkov",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://xscb2.escapefromtarkov.com/",
+      "https://profile.tarkov.com/login"
+    ]
+  },
+  {
+    "id": "jjmrkoewevy7ydtbcjmf4uhl2y",
+    "title": "Fubo",
+    "username": "hartness.andrew.rs@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.fubo.tv/signup?pack=fubotv-basic&addons%5B%5D=deportes&ftv_campaign=USA-SEM-Sports-Network-NHL_Network&comp=network"
+    ]
+  },
+  {
+    "id": "fiq3gbsw2aomthbokxdiypj7ma",
+    "title": "whatsapp.com",
+    "username": "*******1910",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://whatsapp.com"
+    ]
+  },
+  {
+    "id": "jvz5u4qszwhirkdomqcohdzpfa",
+    "title": "Login.principal",
+    "username": "andrewhartness94",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.principal.com",
+      "https://connect2.finicity.com/institution/(4222/sign-in//institution:4222/login)"
+    ]
+  },
+  {
+    "id": "vxta4ceee7ia5iaoxeyw7icn2q",
+    "title": "Monarchmoney",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://app.monarchmoney.com/login"
+    ]
+  },
+  {
+    "id": "k2gz6tpva2abq3dpdgvjkvtdju",
+    "title": "Sling",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.sling.com"
+    ]
+  },
+  {
+    "id": "3m2zsbs3luoomqpgz2ivo6ntvm",
+    "title": "Venmo",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "venmo.com",
+      "https://secure.plaid.com/link/v2/stable/link.html?env=production&isMobile=true&isWebview=true&is_iOS_SDK_in_process_webview=true&linkOpenId=a840f61d-dd0d-4ac8-87ac-d4f7a3a1192f&linkPersistentId=514d6ad5-b13a-4af2-a3ec-fd8977ef911b&linkSdkVersion=4.2.0&token=link-production-b7d32d01-ea94-440c-a233-6406b43d7c02&webviewFallbackId=a6dbf579-8d21-421d-8f57-401c29a84b7f"
+    ]
+  },
+  {
+    "id": "r4w5nghthbg2rr7phzppgejm6y",
+    "title": "American Airlines",
+    "username": "55LE7X4",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.aa.com",
+      "https://www.aainflight.com/#/login_page"
+    ]
+  },
+  {
+    "id": "rdsyhu6epjrywrk4zbhixaptpa",
+    "title": "Epicgames",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.epicgames.com/id/login/reset-password?lang=en-US&redirect_uri=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2Fp%2Ftotal-war-three-kingdoms-d3bb7a%3FpurchaseIntentId%3D817686bfef41431b918f71c5bb3c5db7%257C59917cadc57c4f7ab3b5264c31f4e81b&client_id=875a3b57d3a640a6b7f9b4e883463ab4&display=guided"
+    ]
+  },
+  {
+    "id": "jgvez74fgqpr6h5eqkuzwldzdy",
+    "title": "Reddit",
+    "username": "andrewhartness1@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "reddit.com"
+    ]
+  },
+  {
+    "id": "fjvphoov4jb3d6etg7bv4h4k4q",
+    "title": "EA Login",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://signin.ea.com"
+    ]
+  },
+  {
+    "id": "vyl67oz4skustlzrrwykj7p2zy",
+    "title": "Warframe",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://warframe.market"
+    ]
+  },
+  {
+    "id": "jhh674x3usml5lvw4cmf7hn44u",
+    "title": "Ubisoft",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.ubisoft.com"
+    ]
+  },
+  {
+    "id": "rhrwgz3ajulbdk7sevrsph2w6u",
+    "title": "Dashboard.plaid",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://dashboard.plaid.com"
+    ]
+  },
+  {
+    "id": "fogrkalaosdnklozgudscvehg4",
+    "title": "Idmsa.apple",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://idmsa.apple.com"
+    ]
+  },
+  {
+    "id": "3qxiioan5jt3om4cm4wm73jd7a",
+    "title": "Obsidian",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://obsidian.md",
+      "capacitor://localhost"
+    ]
+  },
+  {
+    "id": "iqpixwgbc2pqx3paaatkmrmg3q",
+    "title": "Elevatedliving",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://app.elevatedliving.com/#/change-password/hartness.andrew@gmail.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcnRuZXNzLmFuZHJld0BnbWFpbC5jb20iLCJpYXQiOjE3MTA5NTkzMDJ9.zSzgWaKC36OPcnW459uqQuaRaXu6P-C1lF2rekDLc2A",
+      "https://property.onesite.realpage.com/welcomehome/?siteId=3649517#url=%23login"
+    ]
+  },
+  {
+    "id": "wabcsqq3rodsiulujlwr6fmcxi",
+    "title": "OpenRouter",
+    "username": "Signs in with GitHub",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://openrouter.ai/sign-up#/sso-callback?sign_up_force_redirect_url=https%3A%2F%2Fopenrouter.ai%2Fpricing&sign_in_force_redirect_url=https%3A%2F%2Fopenrouter.ai%2Fpricing"
+    ]
+  },
+  {
+    "id": "jhz4f7seunoywhilu3rup7vdke",
+    "title": "MLB (Major League Baseball)",
+    "username": "gusalvarez011314@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.mlb.com/login?campaignCode=mp5&redirectUri=/tv"
+    ]
+  },
+  {
+    "id": "3tu5ni3rlt5suqhgzjz677mse4",
+    "title": "No IP",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.noip.com/login"
+    ]
+  },
+  {
+    "id": "gttnwq2z23ttx4ylunexltglsu",
+    "title": "Unioncountywater",
+    "username": "ahartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://myaccount.unioncountywater.org/Register"
+    ]
+  },
+  {
+    "id": "gs5ev2fhar3jpf5vwfjyu5v7vy",
+    "title": "Login.coinbase",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.coinbase.com",
+      "https://coinbase.com"
+    ]
+  },
+  {
+    "id": "ib3wztajy3s7xj2wny7bwivhha",
+    "title": "Fanatics",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://id.fanatics.com/"
+    ]
+  },
+  {
+    "id": "wbz7xbvg5ailgo2imjar6hhhry",
+    "title": "Google",
+    "username": "Signs in with Microsoft",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://mail.google.com/mail/u/0/?ui=2&ik=03dc5eeff6&jsver=a7KS33oNeyI.en..es5&cbl=gmail.pinto-server_20240115.06_p1&view=ma"
+    ]
+  },
+  {
+    "id": "wnzctzestqv7sqziobdpjeim7a",
+    "title": "Kroger",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.kroger.com/eciamp.onmicrosoft.com/B2C_1A__ciam_signin_signup/api/SelfAsserted/confirmed?csrf_token=ZjZIem93L1RaREo1UFI2cjNMa2VTbUtMN2FFMk96VDZreExWc3ZtZzIySE5EaitLZFhFbmhjdHdjVVVCSnpGU0U3SFBoU3ZLMmM4NHptalFkOE13S3c9PTsyMDI1LTEwLTIxVDIyOjI3OjEwLjEzMTY5OTNaO040QnNsS0Zvc1lSRUdiSGd3T0piMFE9PTt7IlRhcmdldEVudGl0eSI6IlNhdmVSZXF1ZXN0U2NvcGVzIiwiT3JjaGVzdHJhdGlvblN0ZXAiOjV9&tx=StateProperties=eyJUSUQiOiI5MWQ2YmI1Yy1jN2Y0LTRlYWEtOGQ4Zi00YTBhZmQwZmFmMGEifQ&p=B2C_1A__ciam_signin_signup&diags=%7B%22pageViewId%22%3A%22a5ead45b-b9fa-4f31-b771-21e13b41da8e%22%2C%22pageId%22%3A%22SelfAsserted%22%2C%22trace%22%3A%5B%7B%22ac%22%3A%22T005%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T021%20-%20URL%3Ahttps%3A%2F%2Flogin.kroger.com%2Fv1%2Fpolicies%2Fassets%2Fprod%2Fdefault%2FsendVerificationMFA.html%3Fclient%3Dharristeeter%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A100%7D%2C%7B%22ac%22%3A%22T019%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A2%7D%2C%7B%22ac%22%3A%22T004%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A3%7D%2C%7B%22ac%22%3A%22T003%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T035%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T030Online%22%2C%22acST%22%3A1761085630%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T033%20id%3A%20emailPhoneVerificationControl%2C%20type%3A%20VerificationControl%2C%20action%3A%20SendCodeT010%22%2C%22acST%22%3A1761085631%2C%22acD%22%3A1000%7D%2C%7B%22ac%22%3A%22T033%20id%3A%20emailPhoneVerificationControl%2C%20type%3A%20VerificationControl%2C%20action%3A%20VerifyCodeT010%22%2C%22acST%22%3A1761085651%2C%22acD%22%3A540%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1761085652%2C%22acD%22%3A418%7D%2C%7B%22ac%22%3A%22T002%22%2C%22acST%22%3A1761085652%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1761085652%2C%22acD%22%3A421%7D%5D%7D"
+    ]
+  },
+  {
+    "id": "zwx2dd7i2znljqc2pjnxr6mdky",
+    "title": "Nexus Mods",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://users.nexusmods.com"
+    ]
+  },
+  {
+    "id": "3wuytdl5ir3jv5b4mj7h2xuywm",
+    "title": "App.hackthebox",
+    "username": "hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://app.hackthebox.com"
+    ]
+  },
+  {
+    "id": "gw5nkdtpylnnzblmxbdibegfia",
+    "title": "Mail",
+    "username": "andrewhartness@mail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://signup.mail.com/#.7518-header-navlogin1-1"
+    ]
+  },
+  {
+    "id": "ie2cvl7b4ibguyhjefuq2utwzy",
+    "title": "GameDev",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.gamedev.tv"
+    ]
+  },
+  {
+    "id": "iutgr5acr5gm63p2fotate6rci",
+    "title": "Lgemembers",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://us.lgemembers.com/lgacc/service/v1/signup/signupForm"
+    ]
+  },
+  {
+    "id": "mw47g6iowlvp55b5ur5ppyo4me",
+    "title": "Twitter",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://twitter.com/chgo_bears?lang=en"
+    ]
+  },
+  {
+    "id": "h3yp34n7kmpxlnqge36b7m7kvu",
+    "title": "Bet365",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://bet365.com/",
+      "pikkit.com"
+    ]
+  },
+  {
+    "id": "h4sq24oelrvysmiskejf4j6smi",
+    "title": "Viva Chicken",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "4d2cqlkwfaw5baxovgthpsdsoe",
+    "title": "Soundiiz",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://soundiiz.com/register/"
+    ]
+  },
+  {
+    "id": "fd4jhh62cour2bn7f7sau2djw4",
+    "title": "Chess",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "chess.com"
+    ]
+  },
+  {
+    "id": "iu2wipscgc4wzkujgaiyzv3f6m",
+    "title": "Goodreads",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.goodreads.com/ap/forgotpassword?ie=UTF8&arb=363317f7-f4ea-475a-94fa-bc241b26647b&ref_=pe_167272450_1300991850"
+    ]
+  },
+  {
+    "id": "h4ypcau4un5u3zz6g6ke6i247e",
+    "title": "Secureloandocs",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://51863775.secureloandocs.com"
+    ]
+  },
+  {
+    "id": "ncgqcaig2mwhsqs4xqmmplg3le",
+    "title": "Facebook",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.facebook.com"
+    ]
+  },
+  {
+    "id": "3zt6m6onnjigelolobpftjeukm",
+    "title": "Nintendo",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "nintendo.com",
+      "accounts.nintendo.com"
+    ]
+  },
+  {
+    "id": "kffpyqmb4wfmewi3775kq44ney",
+    "title": "Zed",
+    "username": "Signs in with GitHub",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://zed.dev/native_app_signin_succeeded"
+    ]
+  },
+  {
+    "id": "h5hfuffvhowxtchm2vxdzsbxim",
+    "title": "Hltv",
+    "username": "Hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.hltv.org/signup"
+    ]
+  },
+  {
+    "id": "543jm2st6zllja44zwlj4udgb4",
+    "title": "Login",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "my.jewelersmutual.com"
+    ]
+  },
+  {
+    "id": "nchigf4dz6bx2ps55utquu6ftm",
+    "title": "Peacocktv",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.peacocktv.com"
+    ]
+  },
+  {
+    "id": "qsj35pogt3f73hpucbjsuxe2hi",
+    "title": "Theposterdb",
+    "username": "hrtns",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://theposterdb.com"
+    ]
+  },
+  {
+    "id": "44suthmlcyumezo3we3tdz7sxe",
+    "title": "Frame",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://frame.work"
+    ]
+  },
+  {
+    "id": "nk3jcqskonj3xbfjg5245ldlsi",
+    "title": "Fedsso.bankofamerica",
+    "username": "zkjqzdp",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://fedsso.bankofamerica.com"
+    ]
+  },
+  {
+    "id": "kitft7xm4zchikiq6qsjnowqzi",
+    "title": "MariaDB Abby",
+    "username": "abby",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "192.168.50.8:3306"
+    ]
+  },
+  {
+    "id": "4lmsnl534vfciacezmmxmvnizq",
+    "title": "Pushover",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://pushover.net/login"
+    ]
+  },
+  {
+    "id": "54gr52dogk7n5vmhbkk24noraq",
+    "title": "Buffalowildwings",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.buffalowildwings.com/login?state=hKFo2SBKVDZoS25GSmlab3c3SjZ0dFh4bDB6S2RLc3pxbXhud6FupWxvZ2luo3RpZNkgeHA3TklHMmMzazdpY1FCOVowUHRnUGFHSWVaQ0RsN2SjY2lk2SBBdHNmNVhFaWk4Z2ZTQXAxQ05GN3dpeTZZMmJJeHBMYg&client=Atsf5XEii8gfSAp1CNF7wiy6Y2bIxpLb&protocol=oauth2&code_challenge_method=S256&redirect_uri=com.blazinrewards%3A%2F%2Flogin.buffalowildwings.com%2Fios%2Fcom.blazinrewards%2Fcallback&connection=firebase-auth&scope=openid%20offline_access%20email%20profile&code_challenge=gUFYHHvbYuHA8lI5HpZ-6RFI9LC2tNMdXuM6pjCJXxM&orderId=&isIDP=true&screen_hint=signup&audience=mobile-exp-api&response_type=code&auth0Client=eyJuYW1lIjoiQXV0aDAuc3dpZnQiLCJ2ZXJzaW9uIjoiMi43LjIiLCJlbnYiOnsic3dpZnQiOiI1LngiLCJpT1MiOiIxOC41In19"
+    ]
+  },
+  {
+    "id": "nwjlfzy42i22333q6vasas73mm",
+    "title": "Thumbtack",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "thumbtack.com"
+    ]
+  },
+  {
+    "id": "kj6lddbpcbnlhezfaucjgn4fxi",
+    "title": "MongoDB Atlas",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.mongodb.com"
+    ]
+  },
+  {
+    "id": "fyf4akii3a6s62thwadlhtdjwe",
+    "title": "Fubo",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.fubo.tv"
+    ]
+  },
+  {
+    "id": "4yelwobjfma73lstvsltizmvxq",
+    "title": "Google (Spare)",
+    "username": "andrewhartness1@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.google.com",
+      "https://google.com"
+    ]
+  },
+  {
+    "id": "fsfwzaxo2qpnoixwsi4mwolzaa",
+    "title": "Easyjet",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.easyjet.com"
+    ]
+  },
+  {
+    "id": "uscc53u7oyd55texrzhawla7ua",
+    "title": "Totalwine",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "totalwine.com"
+    ]
+  },
+  {
+    "id": "roqzjmrtxa6cszgo3dysqbyvtm",
+    "title": "Xbox",
+    "username": "Signs in with Microsoft",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.xbox.com/en-US/auth/msa?action=logIn&returnUrl=https%3A%2F%2Fwww.xbox.com%2Fen-US"
+    ]
+  },
+  {
+    "id": "uxojl77qkf3oft2nethvut26se",
+    "title": "Robertsspaceindustries",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://robertsspaceindustries.com"
+    ]
+  },
+  {
+    "id": "smstejuxh6uq3junfdsmbuojxa",
+    "title": "Reddit",
+    "username": "Harty-",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.reddit.com",
+      "https://old.reddit.com"
+    ]
+  },
+  {
+    "id": "rrizj6pjjn6sjwohjh4mb674ni",
+    "title": "JetBrains",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.jetbrains.com"
+    ]
+  },
+  {
+    "id": "nw26zmnym4xdqhwahkfofqp62a",
+    "title": "The Athletic",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://theathletic.com/login2/?ref_page=https%3A%2F%2Ftheathletic.com%2F5126026%2F2023%2F12%2F12%2Fconnor-bedard-nhl-draft-pick-blackhawks%2F%3Fsource%3Duser-shared-article&login_source=site_nav&redirect_uri=https%3A%2F%2Ftheathletic.com%2F5126026%2F2023%2F12%2F12%2Fconnor-bedard-nhl-draft-pick-blackhawks%2F%3Fsource%3Duser-shared-article"
+    ]
+  },
+  {
+    "id": "srwnceyvkaldetjhw3jeblwoay",
+    "title": "Crunchyroll",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "crunchyroll.com"
+    ]
+  },
+  {
+    "id": "44xliduqbexlobhmrzuit3uqni",
+    "title": "Secureloandocs",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://51863775.secureloandocs.com"
+    ]
+  },
+  {
+    "id": "skjv5bfbmjcvq3cxqjgsooduie",
+    "title": "Ticketmaster (Dad)",
+    "username": "bhartness@bluerockstr.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "am.ticketmaster.com"
+    ]
+  },
+  {
+    "id": "rw4rjjr5t2ep2b4oxnir3d4bfm",
+    "title": "Malwarbytes",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.malwarebytes.com/"
+    ]
+  },
+  {
+    "id": "sw5p3p6sxktyoq2qxoouhmojsq",
+    "title": "Ferdium Login",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "ofj6suj26hzocg34rvigwin25y",
+    "title": "Lowes",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.lowes.com/u/register/personal?state=t6NERE3mI3sblrXv8kspWmubpIYKe2xxsD6HNrlbPuw&epid=9D2F6A4B-4175-4D8F-BA12-E2D451F7BEA5&response_type=code&nonce=xiObg6cA2le4hOXft8nk5iAyjHE-R6F7XndjkE7k6fw&code_challenge_method=S256&scope=general-digital-access&appSiteID=ios&code_challenge=VFSah7n9M_IjL1lcbAlI6TX6A8cfi1BBEfwCmRgoTMU&redirect_uri=lowes://oauth2redirect&isNative=true&client_id=lowesappsclient&appLoginType=PKCE&appMID=86682569518692865340444896472719052675&fromApps=Y",
+      "https://www.lowes.com"
+    ]
+  },
+  {
+    "id": "45pk7juba2x5kzuyefkxknlkaq",
+    "title": "Spectrum TV Login",
+    "username": "bhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "tv.spectrum.com",
+      "smart.link",
+      "https://tve.spectrum.net/openam/SSOPOST/metaAlias/charter/idp#/ma_login"
+    ]
+  },
+  {
+    "id": "t5haph5kejjnikkwgxodipz3li",
+    "title": "ChatGPT (OLD)",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "ft23cvlfttrvrelvhgjovbcueq",
+    "title": "Costco",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://signin.costco.com"
+    ]
+  },
+  {
+    "id": "g3laaeawjduicdac4qzbs3prpe",
+    "title": "Localhost:4799",
+    "username": "hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://localhost:47990"
+    ]
+  },
+  {
+    "id": "okwdhy3yqwyak6knbiijq77qiy",
+    "title": "Redfin",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.redfin.com/reset-password"
+    ]
+  },
+  {
+    "id": "uhygi264nno6ughimpms3ggedq",
+    "title": "Secureloandocs",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://51863775.secureloandocs.com"
+    ]
+  },
+  {
+    "id": "kjq7guqvnb73paf7oxxt7ibavq",
+    "title": "RuneScape",
+    "username": "greenday3016",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://secure.runescape.com/m=weblogin/login-submit"
+    ]
+  },
+  {
+    "id": "lwm7ql6tam573lxbih2c2y6ewe",
+    "title": "Warframe",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.warframe.com"
+    ]
+  },
+  {
+    "id": "vi6kgvnublwkxm334qwlf3nppi",
+    "title": "ventra (cta) chicago",
+    "username": "ahartne5",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "3ywobhykmnifxbkvuvl73qty34",
+    "title": "Fanduel",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://account.il.sportsbook.fanduel.com/password-reset/6SP32DPN6OS3KD1L6DHJ2CR46DGJCCR6CHH3CCPKC5I3AC346DHJ6DPK6CO3AD9L6LH3ICJ46LI3C",
+      "pikkit.com",
+      "fanduelsportsnetwork.com"
+    ]
+  },
+  {
+    "id": "p6a2qzrt5zpuufri6jayolsrci",
+    "title": "Cursor",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://authenticator.cursor.sh"
+    ]
+  },
+  {
+    "id": "vezclrbtnpqtntuhzjpmq6gbeq",
+    "title": "Melvoridle",
+    "username": "Hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://melvoridle.com"
+    ]
+  },
+  {
+    "id": "tm2oqmel26g25yaefpqcwfnfoi",
+    "title": "Capital One",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://apply.capitalone.com"
+    ]
+  },
+  {
+    "id": "lxo5hqjtuqs5uiqc4lwkk2wlja",
+    "title": "Protonmail",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://protonmail.com/"
+    ]
+  },
+  {
+    "id": "pnflrgmvg5jffybdcztbycb5zu",
+    "title": "United Airlines",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "opd5gztsrzv3462i7g2jtdojr4",
+    "title": "Delta",
+    "username": "ahartne5",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.delta.com"
+    ]
+  },
+  {
+    "id": "phgx6i2rwlid4r3zav6nai3jr4",
+    "title": "Benefits.ml",
+    "username": "ahartne5",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.benefits.ml.com",
+      "https://cdn.plaid.com/link/v2/stable/link.html?countryCodes=US&env=production&isLinkInitialize=true&key=661eb25dab0bdfa59b89ff652524d4&token=link-production-29e5d118-a4e0-46a6-8dc1-21938f0e3197&origin=https%3A%2F%2Fwww.sofi.com&product=transactions&uniqueId=2&version=2.0.1719"
+    ]
+  },
+  {
+    "id": "ynneetwxtxxrd6g4n62fmeuuhm",
+    "title": "Instacart",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.instacart.com/accounts/password/edit?reset_password_token=3THF3F_s58y73SUD3HSMzFcYHys84ebB"
+    ]
+  },
+  {
+    "id": "tj3wszcr46n56xobar4dkrhmmy",
+    "title": "Truebill",
+    "username": "andrewhartness@outlook.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://truebill.com/"
+    ]
+  },
+  {
+    "id": "tpo5zsulv5yzdsecxhswjiyv4q",
+    "title": "Chessnut Login",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": []
+  },
+  {
+    "id": "po3znwpa4gsincozah2o7ut53q",
+    "title": "Frontend Masters",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://frontendmasters.com"
+    ]
+  },
+  {
+    "id": "pv2f3dttzf3gouiais7ig2tbaa",
+    "title": "Rocketaccount",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.rocketaccount.com/#/password-reset/verify/45a75e2a-2869-4e30-a273-7e94b0cf2ae4?redirect=aHR0cHM6Ly93d3cucm9ja2V0YWNjb3VudC5jb20vIy9zdWNjZXNzLWxhbmRpbmc%3D"
+    ]
+  },
+  {
+    "id": "v5elhuiihtrkygpx6pebfabo4e",
+    "title": "Laz Parking - BofA",
+    "username": "andrew.hartness@bofa.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "go.lazparking.com"
+    ]
+  },
+  {
+    "id": "kk74j33tnbo67sx4qbblotbck4",
+    "title": "Potbelly",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://potbelly.com/create-account"
+    ]
+  },
+  {
+    "id": "ixhjakendr725jfnfsah3p5fti",
+    "title": "Jerseymikes",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.jerseymikes.com/u/reset-password?ticket=hBRxf3QgU0KS2M5AjtrEiXbn2ts4VsXa#"
+    ]
+  },
+  {
+    "id": "oioyybv2xflan4ovjriztdgtbi",
+    "title": "Runescape",
+    "username": "Hartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://runescape.wiki"
+    ]
+  },
+  {
+    "id": "pin4icyl666mkxpfh5yazgrcqe",
+    "title": "Amazon",
+    "username": "bhartness@bluerockstr.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.amazon.com"
+    ]
+  },
+  {
+    "id": "zra55t6niylvlewqmsbgyysrvm",
+    "title": "United Mileage Login",
+    "username": "ALL69558",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "unitedwifi.com"
+    ]
+  },
+  {
+    "id": "ksyyffz6xmkwscywluokmwlylq",
+    "title": "Discord (Main)",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://discord.com/"
+    ]
+  },
+  {
+    "id": "krwzmopmh6wif5d2qofqwk6ou4",
+    "title": "NC Quick Pass",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://secure.ncquickpass.com/#/Login?redirect=%2FStatement%2FView%3FcorrespondenceId%3DTkNUQV9TVE1UXzI0MDgwMjEzMDQwNl8xMzA3MzIxLnBkZl8zMDQ1NDQ0NjI%253D"
+    ]
+  },
+  {
+    "id": "seozizwrfr575b2pmsgjmszp3y",
+    "title": "Metlife",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "file:///private/var/containers/Bundle/Application/F623E511-3E50-4507-9490-08487A0B82ED/USMobileApp.app/www/index.html",
+      "identity.metlife.com"
+    ]
+  },
+  {
+    "id": "ksyxzqdy2d7hkar4lsmcdfvayq",
+    "title": "Citi Bank",
+    "username": "andrewhartness",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://citibank.com",
+      "https://auth.citi.com/ASag/oauth2/login"
+    ]
+  },
+  {
+    "id": "lcbdzkxihtlsxp6oagdxueobyy",
+    "title": "Opticalpos",
+    "username": "andrewhartness@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://web.opticalpos.com/site/!signup?sid=44B0A12246EE3AFA7BC2E4B9E656287E"
+    ]
+  },
+  {
+    "id": "wpijxj66tujiee3f4teidvlbiu",
+    "title": "Riot Login",
+    "username": "hartnessandrew",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "file:///var/containers/Bundle/Application/745F671F-E050-4FDF-A822-7F6B894CD96C/wildrift.app/Frameworks/RiotGamesApi.framework/platform-ui.bundle/authentication.html?locale=en_US",
+      "https://ks-foundation.secure.dyn.riotcdn.net/channels/public/x/platform-ui/24.11.3/3beb9c9/authentication.html?locale=en_US",
+      "file:///var/containers/Bundle/Application/93BEA0E7-67E8-47A7-ADFB-D115EABA2C87/LeagueConnect.app/Frameworks/RiotGamesApi.framework/platform-ui.bundle/authentication.html?locale=en_US&account_linking_enabled=true"
+    ]
+  },
+  {
+    "id": "g7uskr6tilmjbc65stutlugype",
+    "title": "Personal Amazon",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "amazon.com"
+    ]
+  },
+  {
+    "id": "prxmgv5sanrnb5fdoekyty3f2y",
+    "title": "Etsy",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.etsy.com/confirm.php?email=hartness.andrew%40gmail.com&code=0f88a2329bed54a38f6482a0&action=reset_password&campaign_label=forgot_password_redesign_treatment&utm_source=transactional&utm_campaign=forgot_password_redesign_treatment_010170_1230835244749_0_0&utm_medium=email&email_sent=1720620336&euid=QKnSby_Dc7kiM6UXPlI9SV_l7O1P&eaid=506873214432&x_eaid=1263f3ab9b&verification_code=4da95bf52cbcc3ddd64a2d4e34e2814f"
+    ]
+  },
+  {
+    "id": "i3kbrnrgn446pmbu4i6glcchaa",
+    "title": "Chewy",
+    "username": "Signs in with Google",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.chewy.com/"
+    ]
+  },
+  {
+    "id": "sjl72ksa72fo35swpth7yhg2b4",
+    "title": "Hugging Face",
+    "username": "andrewhartness.signups@pm.me",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://huggingface.co"
+    ]
+  },
+  {
+    "id": "lhnbhp35djpq52zqdbvvg4sp2m",
+    "title": "Hoopladigital",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "hoopladigital.com"
+    ]
+  },
+  {
+    "id": "ugwg3ntkljw5u7e4ojtzg7q224",
+    "title": "Experian",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://usa.experian.com"
+    ]
+  },
+  {
+    "id": "mpgico55d36w6ogtkn5zaae5xq",
+    "title": "1Password Account (Our Family)",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://my.1password.com/"
+    ]
+  },
+  {
+    "id": "uzys4bjtikmf5oxwomyjkzagc4",
+    "title": "Login.live",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://login.live.com"
+    ]
+  },
+  {
+    "id": "mtygmbvn5izhlexsxsth6elfse",
+    "title": "Spotify",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://accounts.spotify.com"
+    ]
+  },
+  {
+    "id": "smevuewkpdl74f73e3gk2magmu",
+    "title": "Netflix",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://www.netflix.com"
+    ]
+  },
+  {
+    "id": "wwoyfhdrmjnsjbknx37h5lbrjm",
+    "title": "MariaDB",
+    "username": "—",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "http://192.168.50.8:5000"
+    ]
+  },
+  {
+    "id": "m3h2lqlisbq6jnzzwx4n7dimmi",
+    "title": "Realpage",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://id.realpage.com/Identity/Account/ResetPassword?code=Q2ZESjhKWUdlK0IyTmZWRmpXQTBpMm1FbkNvL2d6RVA2dXZJNy9xem5qWXRra3ZiZDdLK0l0ZW1ybzFUUXIxQ1phL0d3ZnlSV0puc2ZGYlBDU0h1cnc2d1ZaQWpMUWJrdTAwdkNVRkRjWFUxWFloWkxtRFpxdy9KdWtNaHhiODF0bTRxOG1PdjdLS0YvU0x6WkoyNHJzN1oxZ1VYeitWdThFaTNWc1BwSjUzMGxVdS9wbUtzT3pVQzFNcjdmYmhVOUl4d3FZUVM2MjlZSjBwOUJOVGpvbklPZWpGUEVlZEJkVEtFVVY1TDJjcHdVNjEw&returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Facr_values%3Dlhint%253A8f2980ad4f3de95f63621cc1ada3c735e469edd790581129c40e69437ef9249b%26login_hint%3Dhartness.andrew@gmail.com%26prompt%3Dlogin%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fthevillageatcommonwealth.activebuilding.com%252Fredirect%26client_id%3D9597e59a0101480cbe84d0f805522f2a%26nonce%3D036e536014ac710b749deda0f9177575%26state%3D505d2e7c216903ffb6dad9a2cf0e6ed2%26scope%3Demail%2520profile%2520openid%2520openid%26code_challenge%3DFMy-jB3N4VCWBxqtpPdeENaLsifZ8zttJn6IW159_TI%26code_challenge_method%3DS256%26suppressed_prompt%3Dlogin&email=hartness.andrew@gmail.com",
+      "https://thevillageatcommonwealth.activebuilding.com/portal/resident-dashboard",
+      "https://account.activebuilding.com"
+    ]
+  },
+  {
+    "id": "oorlses2jsqmsibwipr62zl2nu",
+    "title": "Fanduelsportsnetwork",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://fanduelsportsnetwork.com/mvpd/signin"
+    ]
+  },
+  {
+    "id": "womwgf46db6etrqtvkzlabrwx4",
+    "title": "Espnbet",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://id.us-core.espnbet.com/?app=espnbet&client_id=cdce4602d1e37a64ec7e7ebbfab1c75aa2136b3820f552498ee007e4692bb861&code_challenge=lhrmbTSiYSrrpO32_aBKeAcigqz08IOT4MPCSMu-YT8%3D&code_challenge_method=S256&detected_country_code=US&detected_region_code=US-NC&redirect_uri=espn-sportsbook%3A%2Fidentity_oauth_callback&response_type=code&shared_id=1197FC0E-82B9-464B-9F58-F98DE2BBEB10&signup=true#/signup/password"
+    ]
+  },
+  {
+    "id": "m4tq6hw2wnkmljq73tsuhpedma",
+    "title": "Login",
+    "username": "hartness.andrew@gmail.com",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "snusme.com"
+    ]
+  },
+  {
+    "id": "5kx245yvqtmhnystrko6l42iuq",
+    "title": "Customerconnect.vmware",
+    "username": "",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://customerconnect.vmware.com"
+    ]
+  },
+  {
+    "id": "oy2tjj5r7zyr462swdvy3mfdlm",
+    "title": "Clanchat",
+    "username": "Signs in with Discord",
+    "vaultId": "rmbebxlpzcepjxzms76zt5hwhu",
+    "vaultName": "Private",
+    "urls": [
+      "https://clanchat.net/"
+    ]
+  }
+]

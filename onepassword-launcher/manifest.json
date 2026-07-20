@@ -1,11 +1,12 @@
 {
-  "id": "1password-launcher",
+  "id": "onepassword-launcher",
   "name": "1Password Launcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "hrtns",
   "description": "Search 1Password login items from the Noctalia launcher",
   "minNoctaliaVersion": "3.9.0",
   "entryPoints": {
+    "main": "Main.qml",
     "launcherProvider": "LauncherProvider.qml"
   },
   "metadata": {
