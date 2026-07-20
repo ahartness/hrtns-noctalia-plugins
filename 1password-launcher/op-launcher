@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+
+set -u
+
+plugin_dir="$(
+  CDPATH="" cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd
+)"
+cache_file="${plugin_dir}/items.json"
+
+notify() {
+  notify-send "1Password" "$1"
+}
+
+refresh_items() {
+  umask 077
+
+  local temporary_file
+  temporary_file="$(mktemp "${plugin_dir}/.items.XXXXXX")"
+
+  if op item list --categories Login --format json |
+    jq '
+      map({
+        id: .id,
+        title: (.title // "Untitled"),
+        username: (.additional_information // ""),
+        vaultId: (.vault.id // ""),
+        vaultName: (.vault.name // ""),
+        urls: [(.urls[]?.href // empty)]
+      })
+    ' >"${temporary_file}"; then
+    chmod 600 "${temporary_file}"
+    mv "${temporary_file}" "${cache_file}"
+    notify "Login index refreshed"
+  else
+    rm -f "${temporary_file}"
+    notify "Unable to refresh login index"
+    exit 1
+  fi
+}
+
+copy_field() {
+  local item_id="${1:?Missing item ID}"
+  local vault_id="${2:?Missing vault ID}"
+  local field="${3:?Missing field}"
+
+  case "${field}" in
+  username | password)
+    ;;
+  *)
+    notify "Invalid field requested"
+    exit 1
+    ;;
+  esac
+
+  local value
+
+  if ! value="$(
+    op item get "${item_id}" \
+      --vault "${vault_id}" \
+      --fields "${field}"
+  )"; then
+    notify "Unable to retrieve ${field}"
+    exit 1
+  fi
+
+  if [[ -z "${value}" ]]; then
+    notify "The item has no ${field} field"
+    exit 1
+  fi
+
+  printf "%s" "${value}" | wl-copy --type text/plain --paste-once
+  unset value
+
+  notify "${field^} copied to the clipboard"
+}
+
+case "${1:-}" in
+refresh)
+  refresh_items
+  ;;
+copy)
+  copy_field "${2:-}" "${3:-}" "${4:-}"
+  ;;
+*)
+  printf "Usage: %s refresh | copy ITEM_ID VAULT_ID FIELD\n" "$0" >&2
+  exit 2
+  ;;
+esac
