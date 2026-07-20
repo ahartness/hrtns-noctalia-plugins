@@ -1,7 +1,7 @@
 {
   "id": "1password-launcher",
   "name": "1Password Launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "hrtns",
   "description": "Search 1Password login items from the Noctalia launcher",
   "minNoctaliaVersion": "3.9.0",
