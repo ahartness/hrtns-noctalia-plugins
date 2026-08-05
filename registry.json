@@ -3,21 +3,22 @@
   "plugins": [
     {
       "id": "display-switcher",
-      "name": "Display Switcher",
-      "version": "1.0.3",
+      "name": "Script Utilities",
+      "version": "1.1.2",
       "official": false,
       "author": "hrtns",
-      "description": "Display switcher for multiple monitors",
+      "description": "Run display layout and system maintenance scripts from one panel",
       "repository": "https://github.com/ahartness/hrtns-noctalia-plugins",
       "minNoctaliaVersion": "3.6.0",
       "license": "MIT",
       "tags": [
         "Bar",
-        "Display",
-        "Monitor",
-        "Utility"
+        "Panel",
+        "System",
+        "Utility",
+        "Hyprland"
       ],
-      "lastUpdated": "2026-08-05T14:46:58-04:00"
+      "lastUpdated": "2026-08-05T17:49:30-04:00"
     },
     {
       "id": "nordvpn",
