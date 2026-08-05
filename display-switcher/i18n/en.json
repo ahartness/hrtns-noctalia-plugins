@@ -22,12 +22,14 @@
     "scripts": {
       "title": "Scripts",
       "description": "Run system utility scripts",
-      "pipewire-fix-steam": "Pipewire Fix (Steam)"
+      "pipewire-fix-steam": "Pipewire Fix (Steam)",
+      "noctalia-reload": "Restart Noctalia"
     },
     "status": {
       "running": "Running utility...",
       "layout-success": "Layout switched: {mode}",
       "pipewire-success": "Pipewire services restarted",
+      "noctalia-success": "Noctalia restarted",
       "error-detail": "Failed: {error}",
       "error-code": "Command failed with exit code {code}"
     }

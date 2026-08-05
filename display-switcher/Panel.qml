@@ -137,6 +137,13 @@ Item {
 						enabled: !root.acting
 						onClicked: main?.runPipewireFix()
 					}
+
+                    NButton {
+                      Layout.fillWidth: true
+                      text: pluginApi?.tr("panel.scripts.noctalia-reload")
+                      enabled: !root.acting
+                      onClicked: main?.reloadNoctalia()
+                    }
 				}
 			}
 
@@ -173,6 +180,13 @@ Item {
 						label: pluginApi?.tr("panel.status.pipewire-success")
 						labelColor: Color.mPrimary
 					}
+
+                    NLabel {
+                      Layout.fillWidth: true
+                      visible: root.hasSuccess && (main?.lastAction ?? "") === "noctaliaReload"
+                      label: pluginApi?.tr("panel.status.noctalia-success")
+                      labelColor: Color.mPrimary
+                    }
 
 					NLabel {
 						Layout.fillWidth: true

@@ -101,4 +101,13 @@ Item {
 			"wireplumber"
 		]);
 	}
+
+    // qs kill --pid "$(qs list --all | awk '/^[[:space:]]*Process ID:/ { print $3; exit }')" && hyprctl reload
+    function reloadNoctalia() {
+      _runCommand("reloadNoctalia", [
+        "sh",
+        "-c",
+        "qs kill --pid \"$(qs list --all | awk '/^[[:space:]]*Process ID:/ { print $3; exit }')\" && hyprctl reload"
+      ]);
+    }}
 }
