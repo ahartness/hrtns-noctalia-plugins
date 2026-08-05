@@ -58,11 +58,12 @@ Note: the script intentionally uses `cp` (real file copy) instead of a symlink b
 
 ## Settings
 
-Default setting in `manifest.json`:
+Right-click the Display Switcher bar widget to open its plugin settings. Enter the
+absolute path to your layout switch script, then save the settings.
 
-- `scriptPath`: `$HOME/.config/niri/cfg/monitors/switch_layout.sh`
-
-If needed, change `scriptPath` in plugin settings to point to a custom location.
+The manifest's `scriptPath` default is prefilled in the settings field. The
+configured script receives `single`, `dual`, `ultrawide`, or `steamdeck` as its
+first argument.
 
 ## Troubleshooting
 
@@ -70,4 +71,3 @@ If needed, change `scriptPath` in plugin settings to point to a custom location.
 	- `chmod +x ~/.config/niri/cfg/monitors/switch_layout.sh`
 - Verify it works directly:
 	- `~/.config/niri/cfg/monitors/switch_layout.sh dual`
-

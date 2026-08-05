@@ -1,6 +1,10 @@
 {
   "settings": {
-    "pluginSettings": "Plugin Settings"
+    "pluginSettings": "Plugin Settings",
+    "scriptPath": {
+      "label": "Layout switch script",
+      "description": "Absolute path to the script that receives the selected layout as its first argument"
+    }
   },
   "bar": {
     "tooltip": "Display layouts"

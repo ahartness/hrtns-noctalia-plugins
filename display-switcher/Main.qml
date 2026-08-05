@@ -9,7 +9,9 @@ Item {
 
 	property var pluginApi: null
 
-	readonly property string configuredScriptPath: pluginApi?.pluginSettings?.scriptPath ?? "$HOME/.config/hypr/monitors/switch_layout.sh"
+	property var cfg: pluginApi?.pluginSettings || ({})
+	property var defaults: pluginApi?.manifest?.metadata?.defaultSettings || ({})
+	readonly property string configuredScriptPath: cfg.scriptPath ?? defaults.scriptPath ?? ""
 
 	property bool isActing: false
 	property string lastError: ""
