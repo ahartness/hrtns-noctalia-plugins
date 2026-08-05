@@ -1,7 +1,7 @@
 {
   "id": "display-switcher",
   "name": "Script Utilities",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minNoctaliaVersion": "3.6.0",
   "author": "hrtns",
   "license": "MIT",

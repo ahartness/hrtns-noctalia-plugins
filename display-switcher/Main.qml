@@ -109,5 +109,5 @@ Item {
         "-c",
         "qs kill --pid \"$(qs list --all | awk '/^[[:space:]]*Process ID:/ { print $3; exit }')\" && hyprctl reload"
       ]);
-    }}
+    }
 }
