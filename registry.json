@@ -4,7 +4,7 @@
     {
       "id": "display-switcher",
       "name": "Script Utilities",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "official": false,
       "author": "hrtns",
       "description": "Run display layout and system maintenance scripts from one panel",
@@ -18,7 +18,7 @@
         "Utility",
         "Hyprland"
       ],
-      "lastUpdated": "2026-08-05T17:57:31-04:00"
+      "lastUpdated": "2026-08-05T17:58:52-04:00"
     },
     {
       "id": "nordvpn",
