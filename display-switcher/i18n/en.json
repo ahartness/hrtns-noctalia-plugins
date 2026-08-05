@@ -1,25 +1,35 @@
 {
   "settings": {
-    "pluginSettings": "Plugin Settings",
     "scriptPath": {
-      "label": "Layout switch script",
-      "description": "Absolute path to the script that receives the selected layout as its first argument"
+      "label": "Display layout script",
+      "description": "Absolute path to the display script that receives the selected layout as its first argument"
     }
   },
   "bar": {
-    "tooltip": "Display layouts"
+    "tooltip": "Script Utilities"
   },
   "panel": {
-    "title": "Display Switcher",
+    "title": "Script Utilities",
     "close": "Close",
-    "choose-layout": "Choose a monitor layout",
-    "single": "Single 16:9 Monitor",
-    "dual": "Dual Monitor Setup",
-    "ultrawide": "Ultrawide Monitor",
-    "steamdeck": "Steam Deck",
-    "switching": "Switching display layout...",
-    "success": "Layout switched: {mode}",
-    "error-prefix": "Failed",
-    "loading": "Loading..."
+    "display-switcher": {
+      "title": "Display Switcher",
+      "description": "Choose a monitor layout",
+      "single": "Single 16:9 Monitor",
+      "dual": "Dual Monitor Setup",
+      "ultrawide": "Ultrawide Monitor",
+      "steamdeck": "Steam Deck"
+    },
+    "scripts": {
+      "title": "Scripts",
+      "description": "Run system utility scripts",
+      "pipewire-fix-steam": "Pipewire Fix (Steam)"
+    },
+    "status": {
+      "running": "Running utility...",
+      "layout-success": "Layout switched: {mode}",
+      "pipewire-success": "Pipewire services restarted",
+      "error-detail": "Failed: {error}",
+      "error-code": "Command failed with exit code {code}"
+    }
   }
 }

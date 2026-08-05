@@ -15,8 +15,10 @@ Item {
 
 	property bool isActing: false
 	property string lastError: ""
+	property string lastAction: ""
 	property string lastMode: ""
 	property bool lastRunSucceeded: false
+	property int lastExitCode: -1
 
 	StdioCollector {
 		id: actionStdout
@@ -35,6 +37,7 @@ Item {
 		onExited: (code) => {
 			root.isActing = false;
 			root.lastRunSucceeded = code === 0;
+			root.lastExitCode = code;
 			root.lastError = code === 0 ? "" : actionStderr.text.trim();
 		}
 	}
@@ -42,6 +45,20 @@ Item {
 	function _shellQuote(value) {
 		const s = "" + value;
 		return "'" + s.replace(/'/g, "'\\''") + "'";
+	}
+
+	function _runCommand(action, command) {
+		if (root.isActing)
+			return;
+
+		root.isActing = true;
+		root.lastError = "";
+		root.lastAction = action;
+		root.lastRunSucceeded = false;
+		root.lastExitCode = -1;
+
+		actionProc.command = command;
+		actionProc.running = true;
 	}
 
 	function _runLayout(mode) {
@@ -52,14 +69,10 @@ Item {
 		if (["single", "dual", "ultrawide", "steamdeck"].indexOf(normalized) === -1)
 			return;
 
-		root.isActing = true;
-		root.lastError = "";
 		root.lastMode = normalized;
-		root.lastRunSucceeded = false;
 
 		const commandText = root._shellQuote(root.configuredScriptPath) + " " + root._shellQuote(normalized);
-		actionProc.command = ["sh", "-lc", commandText];
-		actionProc.running = true;
+		root._runCommand("displayLayout", ["sh", "-lc", commandText]);
 	}
 
 	function switchToSingle() {
@@ -76,5 +89,16 @@ Item {
 
 	function switchToSteamdeck() {
 		_runLayout("steamdeck");
+	}
+
+	function runPipewireFix() {
+		_runCommand("pipewireFix", [
+			"systemctl",
+			"--user",
+			"restart",
+			"pipewire",
+			"pipewire-pulse",
+			"wireplumber"
+		]);
 	}
 }

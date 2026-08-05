@@ -17,7 +17,9 @@ Item {
 
 	readonly property var main: pluginApi?.mainInstance ?? null
 	readonly property bool acting: main?.isActing ?? false
-	readonly property bool hasError: (main?.lastError ?? "") !== ""
+	readonly property bool hasError: !acting
+		&& (main?.lastExitCode ?? -1) !== -1
+		&& (main?.lastExitCode ?? -1) !== 0
 	readonly property bool hasSuccess: (main?.lastRunSucceeded ?? false) && !acting
 
 	property real contentPreferredWidth: Math.round(360 * Style.uiScaleRatio)
@@ -52,14 +54,17 @@ Item {
 
 					NLabel {
 						Layout.fillWidth: true
-						label: pluginApi?.tr("panel.title") ?? "Display Switcher"
+						label: pluginApi?.tr("panel.title")
 					}
 
 					NIconButton {
 						icon: "close"
-						tooltipText: pluginApi?.tr("panel.close") ?? "Close"
+						tooltipText: pluginApi?.tr("panel.close")
 						baseSize: Style.baseWidgetSize * 0.8
-						onClicked: pluginApi.closePanel(pluginApi.panelOpenScreen)
+						onClicked: {
+							if (pluginApi)
+								pluginApi.closePanel(pluginApi.panelOpenScreen);
+						}
 					}
 				}
 			}
@@ -76,34 +81,34 @@ Item {
 
 					NLabel {
 						Layout.fillWidth: true
-						label: pluginApi?.tr("panel.choose-layout") ?? "Choose a monitor layout"
-						labelColor: Color.mOnSurfaceVariant
+						label: pluginApi?.tr("panel.display-switcher.title")
+						description: pluginApi?.tr("panel.display-switcher.description")
 					}
 
 					NButton {
 						Layout.fillWidth: true
-						text: pluginApi?.tr("panel.single") ?? "Single"
+						text: pluginApi?.tr("panel.display-switcher.single")
 						enabled: !root.acting
 						onClicked: main?.switchToSingle()
 					}
 
 					NButton {
 						Layout.fillWidth: true
-						text: pluginApi?.tr("panel.dual") ?? "Dual"
+						text: pluginApi?.tr("panel.display-switcher.dual")
 						enabled: !root.acting
 						onClicked: main?.switchToDual()
 					}
 
 					NButton {
 						Layout.fillWidth: true
-						text: pluginApi?.tr("panel.ultrawide") ?? "Ultrawide"
+						text: pluginApi?.tr("panel.display-switcher.ultrawide")
 						enabled: !root.acting
 						onClicked: main?.switchToUltrawide()
 					}
 
 					NButton {
 						Layout.fillWidth: true
-						text: pluginApi?.tr("panel.steamdeck") ?? "Steam Deck"
+						text: pluginApi?.tr("panel.display-switcher.steamdeck")
 						enabled: !root.acting
 						onClicked: main?.switchToSteamdeck()
 					}
@@ -111,6 +116,32 @@ Item {
 			}
 
 			NBox {
+				Layout.fillWidth: true
+				Layout.preferredHeight: Math.round(scriptColumn.implicitHeight + Style.marginM * 2)
+
+				ColumnLayout {
+					id: scriptColumn
+					anchors.fill: parent
+					anchors.margins: Style.marginM
+					spacing: Style.marginS
+
+					NLabel {
+						Layout.fillWidth: true
+						label: pluginApi?.tr("panel.scripts.title")
+						description: pluginApi?.tr("panel.scripts.description")
+					}
+
+					NButton {
+						Layout.fillWidth: true
+						text: pluginApi?.tr("panel.scripts.pipewire-fix-steam")
+						enabled: !root.acting
+						onClicked: main?.runPipewireFix()
+					}
+				}
+			}
+
+			NBox {
+				visible: root.acting || root.hasSuccess || root.hasError
 				Layout.fillWidth: true
 				Layout.preferredHeight: Math.round(statusColumn.implicitHeight + Style.marginM * 2)
 
@@ -123,23 +154,32 @@ Item {
 					NLabel {
 						Layout.fillWidth: true
 						visible: root.acting
-						label: pluginApi?.tr("panel.switching") ?? "Switching display layout..."
+						label: pluginApi?.tr("panel.status.running")
 						labelColor: Color.mTertiary
 					}
 
 					NLabel {
 						Layout.fillWidth: true
-						visible: root.hasSuccess
-						label: pluginApi?.tr("panel.success", {
+						visible: root.hasSuccess && (main?.lastAction ?? "") === "displayLayout"
+						label: pluginApi?.tr("panel.status.layout-success", {
 							mode: main?.lastMode ?? ""
-						}) ?? "Layout switched"
+						})
+						labelColor: Color.mPrimary
+					}
+
+					NLabel {
+						Layout.fillWidth: true
+						visible: root.hasSuccess && (main?.lastAction ?? "") === "pipewireFix"
+						label: pluginApi?.tr("panel.status.pipewire-success")
 						labelColor: Color.mPrimary
 					}
 
 					NLabel {
 						Layout.fillWidth: true
 						visible: root.hasError
-						label: (pluginApi?.tr("panel.error-prefix") ?? "Failed:") + " " + (main?.lastError ?? "")
+						label: (main?.lastError ?? "") !== ""
+							? pluginApi?.tr("panel.status.error-detail", { error: main?.lastError ?? "" })
+							: pluginApi?.tr("panel.status.error-code", { code: main?.lastExitCode ?? -1 })
 						labelColor: Color.mError
 					}
 				}

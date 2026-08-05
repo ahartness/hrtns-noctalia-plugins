@@ -1,73 +1,56 @@
-# Display Switcher - Noctalia Bar Widget
+# Script Utilities - Noctalia Plugin
 
-This plugin adds a display icon to the Noctalia bar. Clicking the icon opens a panel with quick layout buttons:
+Script Utilities adds a bar icon and panel for frequently used display and system maintenance actions.
 
-- Single
-- Dual
-- Ultrawide
+## Features
+
+### Display Switcher
+
+The Display Switcher group keeps the existing monitor layout actions:
+
+- Single 16:9 Monitor
+- Dual Monitor Setup
+- Ultrawide Monitor
 - Steam Deck
 
-Each button runs your Niri layout switch script with the matching argument.
+Each button runs the configured display layout script with `single`, `dual`, `ultrawide`, or `steamdeck` as its first argument.
+
+### Scripts
+
+The Scripts group currently provides:
+
+- **Pipewire Fix (Steam)** — restarts the Pipewire, Pipewire Pulse, and WirePlumber systemd user services with:
+
+  ```bash
+  systemctl --user restart pipewire pipewire-pulse wireplumber
+  ```
 
 ## Requirements
 
 - Noctalia `>= 3.6.0`
-- Niri installed
-- Script available at:
-	- `$HOME/.config/niri/cfg/monitors/switch_layout.sh`
-
-## Behavior
-
-- Bar widget shows icon only (no text)
-- Left click opens panel
-- Right click opens plugin context menu
-- Panel buttons run:
-	- `switch_layout.sh single`
-	- `switch_layout.sh dual`
-	- `switch_layout.sh ultrawide`
-	- `switch_layout.sh steamdeck`
-
-## switch_layout.sh snippet
-
-```bash
-if [ "$1" == "single" ]; then
-	SOURCE_CONFIG="$MONITOR_DIR/single.kdl"
-elif [ "$1" == "dual" ]; then
-	SOURCE_CONFIG="$MONITOR_DIR/dual.kdl"
-elif [ "$1" == "ultrawide" ]; then
-	SOURCE_CONFIG="$MONITOR_DIR/ultrawide.kdl"
-elif [ "$1" == "steamdeck" ]; then
-	SOURCE_CONFIG="$MONITOR_DIR/steamdeck.kdl"
-else
-	exit 1
-fi
-
-cp -f "$SOURCE_CONFIG" "$CURRENT_CONFIG"
-niri validate
-```
-
-## How it works
-
-1. You click a layout button in the panel.
-2. The plugin calls `switch_layout.sh` with the selected mode (`single`, `dual`, `ultrawide`, or `steamdeck`).
-3. The script maps that mode to a preset `.kdl` file in `~/.config/niri/cfg/monitors`.
-4. It copies the chosen preset into `~/.config/niri/cfg/display.kdl`.
-5. Finally, it runs `niri validate`, which triggers Niri to re-read the config.
-
-Note: the script intentionally uses `cp` (real file copy) instead of a symlink because Niri KDL configs do not support symlinked config files.
+- An executable display layout script for the Display Switcher actions
+- `systemctl` and systemd user services for the Pipewire Fix action
 
 ## Settings
 
-Right-click the Display Switcher bar widget to open its plugin settings. Enter the
-absolute path to your layout switch script, then save the settings.
+Right-click the Script Utilities bar widget to open its settings. Enter the absolute path to the display layout script, then save the settings.
 
-The manifest's `scriptPath` default is prefilled in the settings field. The
-configured script receives `single`, `dual`, `ultrawide`, or `steamdeck` as its
-first argument.
+The configured script receives one of these values as its first argument:
+
+- `single`
+- `dual`
+- `ultrawide`
+- `steamdeck`
+
+## Behavior
+
+- Left-click the bar widget to open the Script Utilities panel.
+- Right-click the bar widget to open plugin settings.
+- Only one utility can run at a time.
+- The panel reports whether the utility succeeded or failed, including stderr output when available.
 
 ## Troubleshooting
 
-- Ensure the script is executable:
-	- `chmod +x ~/.config/niri/cfg/monitors/switch_layout.sh`
-- Verify it works directly:
-	- `~/.config/niri/cfg/monitors/switch_layout.sh dual`
+- Ensure the display layout script exists and is executable.
+- Run the configured display command directly with a layout argument to verify it.
+- If Pipewire Fix fails, verify that `pipewire`, `pipewire-pulse`, and `wireplumber` are systemd user services on your system.

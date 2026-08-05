@@ -7,7 +7,7 @@ A collection of plugins for [Noctalia Shell](https://github.com/noctalia-dev/noc
 | Plugin | Description | Entry point | Requirements |
 | --- | --- | --- | --- |
 | [1Password Launcher](./1password-launcher/) | Search 1Password Login items from the Noctalia launcher, then copy usernames or passwords to the clipboard. | Launcher provider | 1Password CLI (`op`), `jq`, `wl-copy` |
-| [Display Switcher](./display-switcher/) | Switch between predefined monitor layouts from a Noctalia bar widget and panel. | Bar widget and panel | Niri and a layout-switching script |
+| [Script Utilities](./display-switcher/) | Switch display layouts and run system maintenance scripts from a Noctalia panel. | Bar widget and panel | A layout-switching script; systemd user services for Pipewire Fix |
 | [NordVPN Status](./nordvpn/) | View NordVPN connection status and server details, connect or disconnect, refresh status, and manage selected VPN settings. | Bar widget and panel | NordVPN CLI and an authenticated session |
 
 Use the linked plugin directory for detailed requirements, configuration, troubleshooting, and implementation notes.

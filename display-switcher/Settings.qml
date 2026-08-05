@@ -27,6 +27,6 @@ ColumnLayout {
 
 		pluginApi.pluginSettings.scriptPath = root.editScriptPath.trim();
 		pluginApi.saveSettings();
-		Logger.i("DisplaySwitcher", "Settings saved");
+		Logger.i("ScriptUtilities", "Settings saved");
 	}
 }
